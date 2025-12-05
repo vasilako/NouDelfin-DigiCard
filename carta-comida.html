@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carta Comida · Nou Delfín</title>
+
+    <!-- Google Font elegante -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Iconos Banderas -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css"
+    />
+
+    <!-- CSS general y específico -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="components/header.css" />
+    <link rel="stylesheet" href="css/carta-comida.css" />
+
+    <!-- JS global y específico -->
+    <script defer src="components/header.js"></script>
+    <script defer src="js/language-select.js"></script>
+    <script defer src="js/update-comida.js"></script>
+    <script defer src="js/clear.js"></script>
+  </head>
+  <body>
+    <!-- Cabecera global, título multilingüe en data-* -->
+    <header id="app-header" data-title="🍽️ Carta de Comida"></header>
+    <div class="menu-container">
+      <h1
+        class="page-title"
+        data-es="🍽️ Carta de Comida"
+        data-en="🍽️ Food Menu"
+        data-fr="🍽️ Carte des Plats"
+        data-it="🍽️ Menu Piatti"
+        data-ru="🍽️ Меню блюд"
+      >
+        🍽️ Carta de Comida
+      </h1>
+      <div id="menu-comida"></div>
+    </div>
+  </body>
+</html>

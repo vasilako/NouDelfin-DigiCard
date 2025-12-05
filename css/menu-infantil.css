@@ -1,0 +1,116 @@
+.kids-menu-card,
+.menu-infantil-especial {
+  max-width: 430px;
+  margin: 48px auto 40px auto;
+  background: rgba(255,255,255,0.97);
+  border-radius: 18px;
+  box-shadow: 0 2px 24px #0001;
+  padding: 38px 22px 24px 22px;
+  text-align: center;
+  font-family: 'Marcellus', serif;
+}
+
+.kids-menu-title,
+.menu-infantil-titulo {
+  font-family: 'Dancing Script', 'Pacifico', 'Marcellus', cursive, serif;
+  font-size: 2.5rem;
+  margin-bottom: 34px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #202020;
+}
+
+.kids-menu-items > div,
+.menu-infantil-bloque > div,
+.menu-infantil-bloque > span {
+  font-size: 1.19rem;
+  margin-bottom: 11px;
+
+}
+
+.kids-menu-drink,
+.menu-infantil-bloque .bebida {
+  margin-bottom: 24px;
+  font-size: 1.13rem;
+  color: #383838;
+}
+
+.kids-menu-price,
+.menu-infantil-bloque .precio {
+  font-size: 3.3rem;
+  margin-bottom: 19px;
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.price-main,
+.menu-infantil-bloque .precio-cifra {
+  font-size: 3.2rem;
+}
+.price-cents {
+  font-size: 1.75rem;
+  vertical-align: super;
+  margin-left: 2px;
+}
+.price-eur,
+.menu-infantil-bloque .precio-euro {
+  font-size: 1.7rem;
+  margin-left: 2px;
+  vertical-align: super;
+}
+
+.kids-menu-note,
+.menu-infantil-bloque .nota {
+  font-size: 1.08rem;
+  color: #4b4b4b;
+  margin-top: 15px;
+  font-family: inherit;
+  opacity: 0.88;
+}
+
+/* Subtítulos y aclaraciones */
+.menu-infantil-bloque .primero,
+.menu-infantil-bloque .segundo {
+  font-size: 1.15rem;
+  margin-top: 16px;
+  margin-bottom: 3px;
+  color: #232323;
+  font-weight: 600;
+}
+
+.menu-infantil-bloque .plato {
+  margin-bottom: 6px;
+}
+
+.menu-infantil-bloque .aclaracion {
+  font-size: 0.92rem;
+  color: #666;
+  margin-left: 2px;
+}
+
+.menu-infantil-bloque .elige {
+  font-size: 0.96rem;
+  color: #444;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.menu-infantil-bloque .postre {
+  margin-top: 12px;
+}
+
+@media (max-width: 540px) {
+  .kids-menu-card,
+  .menu-infantil-especial {
+    padding: 18px 2px 13px 2px;
+  }
+  .kids-menu-title,
+  .menu-infantil-titulo {
+    font-size: 1.7rem;
+  }
+  .kids-menu-price,
+  .menu-infantil-bloque .precio {
+    font-size: 2.1rem;
+  }
+}

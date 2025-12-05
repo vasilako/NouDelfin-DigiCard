@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nou Delfín</title>
+
+    <!-- Google Font elegante -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Iconos Banderas -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css"
+    />
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- JS utilidades -->
+    <script defer src="js/clear.js"></script>
+    <script defer src="js/language-select.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Selector de idioma -->
+      <header class="language-selector">
+        <ul>
+          <li>
+            <button data-lang="es" class="active" aria-label="Español">
+              <span class="fi fi-es"></span>
+            </button>
+          </li>
+          <li>
+            <button data-lang="en" aria-label="English">
+              <span class="fi fi-gb"></span>
+            </button>
+          </li>
+          <li>
+            <button data-lang="fr" aria-label="Français">
+              <span class="fi fi-fr"></span>
+            </button>
+          </li>
+          <li>
+            <button data-lang="it" aria-label="Italiano">
+              <span class="fi fi-it"></span>
+            </button>
+          </li>
+          <li>
+            <button data-lang="ru" aria-label="Русский">
+              <span class="fi fi-ru"></span>
+            </button>
+          </li>
+        </ul>
+      </header>
+
+      <!-- Logo -->
+      <header class="logo">
+        <img src="img/LogoNouDelfin.svg" alt="Nou Delfín Logo" />
+      </header>
+
+      <!-- Menús principales -->
+      <section class="menus">
+        <h2
+          class="title-multilang"
+          data-es="Carta · Menú"
+          data-en="Menu · Food Menu"
+          data-fr="Menu · Carte"
+          data-it="Menu · Carta"
+          data-ru="Карта · Меню"
+        >
+          Carta · Menú
+        </h2>
+        <div class="buttons">
+          <ul>
+            <li>
+              <a
+                href="carta-comida.html"
+                class="menu-btn"
+                data-es="🍽️ Carta comida"
+                data-en="🍽️ Food Menu"
+                data-fr="🍽️ Menu Repas"
+                data-it="🍽️ Menu Cibo"
+                data-ru="🍽️ Меню Еда"
+                >🍽️ Carta comida</a
+              >
+            </li>
+            <li>
+              <a
+                href="carta-bebida.html"
+                class="menu-btn"
+                data-es="🍹 Carta bebida"
+                data-en="🍹 Drinks Menu"
+                data-fr="🍹 Menu Boissons"
+                data-it="🍹 Menu Bevande"
+                data-ru="🍹 Меню Напитков"
+                >🍹 Carta bebida</a
+              >
+            </li>
+            <li>
+              <a
+                href="menu-infantil.html"
+                class="menu-btn"
+                data-es="⭐ Menú infantil"
+                data-en="⭐ Kids Menu"
+                data-fr="⭐ Menu Enfants"
+                data-it="⭐ Menu Bambini"
+                data-ru="⭐ Детское Меню"
+                >⭐ Menú infantil</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="menu-grupos.html"
+                class="menu-btn"
+                data-es="⭐ Menú Grupos"
+                data-en="⭐ Group Menu"
+                data-fr="⭐ Menu Groupes"
+                data-it="⭐ Menu Gruppi"
+                data-ru="⭐ Групповое Меню"
+                >⭐ Menú Grupos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- QR y ubicación -->
+      <section class="location">
+        <div class="qr">
+          <img src="img/solo-muestra.png" alt="QR Google Maps" />
+          <p
+            class="location-text"
+            data-es="Escanea el QR para la ubicación en Google Maps"
+            data-en="Scan the QR for Google Maps location"
+            data-fr="Scannez le QR pour la localisation sur Google Maps"
+            data-it="Scansiona il QR per la posizione su Google Maps"
+            data-ru="Сканируйте QR для открытия местоположения в Google Maps"
+          >
+            Escanea el QR para la ubicación en Google Maps
+          </p>
+        </div>
+        <div class="map-link">
+          <a
+            href="https://maps.app.goo.gl/zbp2rHLEK8xxQ4MRA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="img/googleMaps.svg" alt="Map Icon" />
+          </a>
+          <p
+            class="map-text"
+            data-es="Ver ubicación en Google Maps"
+            data-en="View location on Google Maps"
+            data-fr="Voir la localisation sur Google Maps"
+            data-it="Vedi posizione su Google Maps"
+            data-ru="Открыть местоположение в Google Maps"
+          >
+            Ver ubicación en Google Maps
+          </p>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-content">
+          <p>
+            Muelle 8, zona de Levante — Alicante, España<br />
+            <span class="phone">T. 966 09 64 05</span>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Ajuste dinámico de botones -->
+    <script src="js/menu-resize.js"></script>
+  </body>
+</html>

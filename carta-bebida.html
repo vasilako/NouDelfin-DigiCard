@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carta Bebidas · Nou Delfín</title>
+    <!-- Font e iconos -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css"
+    />
+    <!-- Header + Menú CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="components/header.css" />
+    <link rel="stylesheet" href="css/carta-bebida.css" />
+  </head>
+  <body>
+    <header id="app-header" data-title="🍹 Carta de Bebidas"></header>
+    <div class="menu-container">
+      <h1
+        class="page-title"
+        data-es="🍹 Carta de Bebidas"
+        data-en="🍹 Drinks Menu"
+        data-fr="🍹 Carte des Boissons"
+        data-it="🍹 Menu Bevande"
+        data-ru="🍹 Меню напитков"
+      >
+        🍹 Carta de Bebidas
+      </h1>
+      <div id="menu-bebidas"></div>
+    </div>
+    <script defer src="js/language-select.js"></script>
+    <script defer src="js/update-json.js"></script>
+    <script defer src="js/clear.js"></script>
+    <script defer src="components/header.js"></script>
+    <script defer src="js/clear.js"></script>
+  </body>
+</html>

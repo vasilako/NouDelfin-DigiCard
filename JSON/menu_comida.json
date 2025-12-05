@@ -1,0 +1,1001 @@
+{
+    "sections": [
+        {
+            "code": "RA",
+            "ES_title": "Raciones",
+            "EN_title": "Portions",
+            "FR_title": "Rations",
+            "IT_title": "Porzioni",
+            "RU_title": "Порции",
+            "sub_sections": [
+                {
+                    "ES_SubTitle": "Pescadito Frito",
+                    "EN_SubTitle": "Fried Small Fish",
+                    "FR_SubTitle": "Poisson Frit",
+                    "IT_SubTitle": "Pesciolini Fritti",
+                    "RU_SubTitle": "Жареная мелкая рыба",
+                    "items": [
+                        {
+                            "code": "RA001",
+                            "name_es": "Cazón en adobo",
+                            "name_en": "Marinated dogfish",
+                            "name_fr": "Chien de mer mariné",
+                            "name_it": "Palombo marinato",
+                            "name_ru": "Маринованная акула",
+                            "portion_price": "12,90",
+                            "half_portion_price": "7,95"
+                        },
+                        {
+                            "code": "RA002",
+                            "name_es": "Boquerones adobo",
+                            "name_en": "Marinated anchovies",
+                            "name_fr": "Anchois marinés",
+                            "name_it": "Alici marinate",
+                            "name_ru": "Маринованные анчоусы",
+                            "portion_price": "12,90",
+                            "half_portion_price": "7,95"
+                        },
+                        {
+                            "code": "RA003",
+                            "name_es": "Calamares andaluza",
+                            "name_en": "Andalusian-style squid",
+                            "name_fr": "Calmars andalous",
+                            "name_it": "Calamari andalusi",
+                            "name_ru": "Сquid по-андалузски",
+                            "portion_price": "14,75",
+                            "half_portion_price": "9,95"
+                        },
+                        {
+                            "code": "RA004",
+                            "name_es": "Chopitos andaluza",
+                            "name_en": "Andalusian baby squid",
+                            "name_fr": "Petits calmars andalous",
+                            "name_it": "Calamaretti andalusi",
+                            "name_ru": "Маленькие кальмары по-андалузски",
+                            "portion_price": "12,90",
+                            "half_portion_price": "7,95"
+                        },
+                        {
+                            "code": "RA005",
+                            "name_es": "Tortillitas de camarón",
+                            "name_en": "Shrimp fritters",
+                            "name_fr": "Beignets de crevettes",
+                            "name_it": "Frittelle di gamberetti",
+                            "name_ru": "Оладьи с креветками",
+                            "portion_price": "12,90",
+                            "half_portion_price": "7,95"
+                        },
+                        {
+                            "code": "RA006",
+                            "name_es": "Gambita frita",
+                            "name_en": "Fried small prawns",
+                            "name_fr": "Petites crevettes frites",
+                            "name_it": "Gamberetti fritti",
+                            "name_ru": "Жареные маленькие креветки",
+                            "portion_price": "12,90",
+                            "half_portion_price": "8,95"
+                        },
+                        {
+                            "code": "RA007",
+                            "name_es": "Chanquetes",
+                            "name_en": "Whitebait",
+                            "name_fr": "Joëls frits",
+                            "name_it": "Bianchetti fritti",
+                            "name_ru": "Жареная мелкая рыбка",
+                            "portion_price": "12,90",
+                            "half_portion_price": "6,95"
+                        }
+                    ]
+                },
+                {
+                    "ES_SubTitle": "Entrantes Fríos",
+                    "EN_SubTitle": "Cold Starters",
+                    "FR_SubTitle": "Entrées Froides",
+                    "IT_SubTitle": "Antipasti Freddi",
+                    "RU_SubTitle": "Холодные закуски",
+                    "items": [
+                        {
+                            "code": "RA008",
+                            "name_es": "Lacón a la gallega",
+                            "name_en": "Galician-style pork shoulder",
+                            "name_fr": "Épaule de porc à la galicienne",
+                            "name_it": "Spalla di maiale alla galiziana",
+                            "name_ru": "Свинина по-галисийски",
+                            "portion_price": "11,95",
+                            "half_portion_price": "5,95"
+                        },
+                        {
+                            "code": "RA009",
+                            "name_es": "Queso curado de oveja",
+                            "name_en": "Cured sheep cheese",
+                            "name_fr": "Fromage affiné de brebis",
+                            "name_it": "Formaggio stagionato di pecora",
+                            "name_ru": "Выдержанный овечий сыр",
+                            "portion_price": "11,95",
+                            "half_portion_price": "6,75"
+                        },
+                        {
+                            "code": "RA010",
+                            "name_es": "Tabla de Ibéricos",
+                            "name_en": "Iberian cold cuts platter",
+                            "name_fr": "Plateau de charcuterie ibérique",
+                            "name_it": "Tagliere di salumi iberici",
+                            "name_ru": "Ассорти иберийских деликатесов",
+                            "portion_price": "16,90"
+                        },
+                        {
+                            "code": "RA011",
+                            "name_es": "Patatas con alioli",
+                            "name_en": "Potatoes with aioli",
+                            "name_fr": "Pommes de terre à l'aïoli",
+                            "name_it": "Patate con aioli",
+                            "name_ru": "Картофель с айоли",
+                            "portion_price": "5,50"
+                        },
+                        {
+                            "code": "RA012",
+                            "name_es": "Ensaladilla rusa",
+                            "name_en": "Russian salad",
+                            "name_fr": "Salade russe",
+                            "name_it": "Insalata russa",
+                            "name_ru": "Оливье",
+                            "portion_price": "5,75"
+                        },
+                        {
+                            "code": "RA013",
+                            "name_es": "Chorizo Ibérico",
+                            "name_en": "Iberian chorizo",
+                            "name_fr": "Chorizo ibérique",
+                            "name_it": "Chorizo iberico",
+                            "name_ru": "Иберийский чорисо",
+                            "portion_price": "11,95",
+                            "half_portion_price": "6,75"
+                        },
+                        {
+                            "code": "RA014",
+                            "name_es": "Salchichón Ibérico",
+                            "name_en": "Iberian salchichón",
+                            "name_fr": "Salchichón ibérique",
+                            "name_it": "Salchichón iberico",
+                            "name_ru": "Иберийский сальчичон",
+                            "portion_price": "11,95",
+                            "half_portion_price": "6,75"
+                        },
+                        {
+                            "code": "RA015",
+                            "name_es": "Jamón Ibérico",
+                            "name_en": "Iberian ham",
+                            "name_fr": "Jambon ibérique",
+                            "name_it": "Prosciutto iberico",
+                            "name_ru": "Иберийский хамон",
+                            "portion_price": "18,00",
+                            "half_portion_price": "11,50"
+                        },
+                        {
+                            "code": "RA016",
+                            "name_es": "Lomo Ibérico",
+                            "name_en": "Iberian pork loin",
+                            "name_fr": "Longe de porc ibérique",
+                            "name_it": "Lombo iberico",
+                            "name_ru": "Иберийская корейка",
+                            "portion_price": "18,00",
+                            "half_portion_price": "11,50"
+                        },
+                        {
+                            "code": "RA017",
+                            "name_es": "Salmón Noruego",
+                            "name_en": "Norwegian salmon",
+                            "name_fr": "Saumon norvégien",
+                            "name_it": "Salmone norvegese",
+                            "name_ru": "Норвежский лосось",
+                            "portion_price": "16,90"
+                        },
+                        {
+                            "code": "RA018",
+                            "name_es": "Mojama de atún",
+                            "name_en": "Cured tuna mojama",
+                            "name_fr": "Thon séché mojama",
+                            "name_it": "Mojama di tonno",
+                            "name_ru": "Можама из тунца",
+                            "portion_price": "14,95"
+                        },
+                        {
+                            "code": "RA019",
+                            "name_es": "Anchoas del Cantábrico",
+                            "name_en": "Cantabrian anchovies",
+                            "name_fr": "Anchois de Cantabrie",
+                            "name_it": "Acciughe del Cantabrico",
+                            "name_ru": "Кантабрийские анчоусы",
+                            "portion_price": "9,95"
+                        }
+                    ]
+                },
+                {
+                    "ES_SubTitle": "A la Plancha",
+                    "EN_SubTitle": "Grilled",
+                    "FR_SubTitle": "Grillé",
+                    "IT_SubTitle": "Alla Griglia",
+                    "RU_SubTitle": "На гриле",
+                    "items": [
+                        {
+                            "code": "RA020",
+                            "name_es": "Pata pulpo",
+                            "name_en": "Grilled octopus leg",
+                            "name_fr": "Poulpe grillé",
+                            "name_it": "Polpo alla griglia",
+                            "name_ru": "Нога осьминога на гриле",
+                            "portion_price": "18,00"
+                        },
+                        {
+                            "code": "RA021",
+                            "name_es": "Calamarcito (6/7u.)",
+                            "name_en": "Small squid (6/7 pcs)",
+                            "name_fr": "Petits calmars (6/7 pcs)",
+                            "name_it": "Calamaretti (6/7 pz)",
+                            "name_ru": "Маленькие кальмары (6/7 шт)",
+                            "portion_price": "16,50"
+                        },
+                        {
+                            "code": "RA022",
+                            "name_es": "Sepia entera plancha",
+                            "name_en": "Whole grilled cuttlefish",
+                            "name_fr": "Seiche entière grillée",
+                            "name_it": "Seppia intera alla griglia",
+                            "name_ru": "Цельная каракатица на гриле",
+                            "portion_price": "16,95"
+                        },
+                        {
+                            "code": "RA023",
+                            "name_es": "Gambón",
+                            "name_en": "Grilled king prawn",
+                            "name_fr": "Gambon grillé",
+                            "name_it": "Gamberone alla griglia",
+                            "name_ru": "Королевская креветка на гриле",
+                            "portion_price": "16,95",
+                            "half_portion_price": "9,95"
+                        },
+                        {
+                            "code": "RA024",
+                            "name_es": "Gambita roja",
+                            "name_en": "Red prawn",
+                            "name_fr": "Crevette rouge",
+                            "name_it": "Gambero rosso",
+                            "name_ru": "Красная креветка",
+                            "portion_price": "15,95",
+                            "half_portion_price": "9,95"
+                        },
+                        {
+                            "code": "RA025",
+                            "name_es": "Chorizo picante",
+                            "name_en": "Spicy chorizo",
+                            "name_fr": "Chorizo épicé",
+                            "name_it": "Chorizo piccante",
+                            "name_ru": "Острый чорисо",
+                            "portion_price": "9,90",
+                            "half_portion_price": "6,90"
+                        },
+                        {
+                            "code": "RA026",
+                            "name_es": "Morcilla de Burgos",
+                            "name_en": "Burgos blood sausage",
+                            "name_fr": "Boudin noir de Burgos",
+                            "name_it": "Sanguinaccio di Burgos",
+                            "name_ru": "Кровяная колбаса из Бургоса",
+                            "portion_price": "9,90",
+                            "half_portion_price": "6,90"
+                        },
+                        {
+                            "code": "RA027",
+                            "name_es": "Minutejos",
+                            "name_en": "Mini pork bites",
+                            "name_fr": "Morceaux de porc mini",
+                            "name_it": "Bocconcini di maiale",
+                            "name_ru": "Мини-свинина",
+                            "portion_price": "12,50",
+                            "half_portion_price": "8,50"
+                        }
+                    ]
+                },
+                {
+                    "ES_SubTitle": "De la Mar",
+                    "EN_SubTitle": "From the Sea",
+                    "FR_SubTitle": "De la Mer",
+                    "IT_SubTitle": "Dal Mare",
+                    "RU_SubTitle": "Из Моря",
+                    "items": [
+                        {
+                            "code": "RA028",
+                            "name_es": "Mejillones al vapor",
+                            "name_en": "Steamed mussels",
+                            "name_fr": "Moules vapeur",
+                            "name_it": "Cozze al vapore",
+                            "name_ru": "Мидии на пару",
+                            "portion_price": "11,50"
+                        },
+                        {
+                            "code": "RA029",
+                            "name_es": "Almejas a la marinera",
+                            "name_en": "Clams marinera style",
+                            "name_fr": "Palourdes à la marinière",
+                            "name_it": "Vongole alla marinara",
+                            "name_ru": "Моллюски по-моряцки",
+                            "portion_price": "15,60"
+                        },
+                        {
+                            "code": "RA030",
+                            "name_es": "Berberechos al vapor",
+                            "name_en": "Steamed cockles",
+                            "name_fr": "Coques vapeur",
+                            "name_it": "Telline al vapore",
+                            "name_ru": "Пареные берберечки",
+                            "portion_price": "15,60"
+                        }
+                    ]
+                },
+                {
+                    "ES_SubTitle": "Y además...",
+                    "EN_SubTitle": "And more...",
+                    "FR_SubTitle": "Et plus...",
+                    "IT_SubTitle": "E inoltre...",
+                    "RU_SubTitle": "И дополнительно...",
+                    "items": [
+                        {
+                            "code": "RA031",
+                            "name_es": "Delicias de pollo (salsa griega)",
+                            "name_en": "Chicken bites (Greek sauce)",
+                            "name_fr": "Délices de poulet (sauce grecque)",
+                            "name_it": "Bocconcini di pollo (salsa greca)",
+                            "name_ru": "Куриные деликатесы (греческий соус)",
+                            "portion_price": "9,95"
+                        },
+                        {
+                            "code": "RA032",
+                            "name_es": "Patatas bravas",
+                            "name_en": "Patatas bravas",
+                            "name_fr": "Pommes bravas",
+                            "name_it": "Patatas bravas",
+                            "name_ru": "Картофель бравас",
+                            "portion_price": "5,95"
+                        },
+                        {
+                            "code": "RA033",
+                            "name_es": "Huevos rotos Nou Delfín",
+                            "name_en": "Broken eggs Nou Delfín",
+                            "name_fr": "Œufs cassés Nou Delfín",
+                            "name_it": "Uova rotte Nou Delfín",
+                            "name_ru": "Яичница 'Ноу Дельфин'",
+                            "portion_price": "13,95"
+                        },
+                        {
+                            "code": "RA034",
+                            "name_es": "Pimientos de padrón",
+                            "name_en": "Padrón peppers",
+                            "name_fr": "Piments de Padrón",
+                            "name_it": "Peperoni di Padrón",
+                            "name_ru": "Перцы Падрон",
+                            "portion_price": "9,95"
+                        },
+                        {
+                            "code": "RA035",
+                            "name_es": "Pinchito moruno (und)",
+                            "name_en": "Moorish skewer (each)",
+                            "name_fr": "Brochette mauresque (u)",
+                            "name_it": "Spiedino moresco (cad)",
+                            "name_ru": "Шашлычок по-мавритански (шт)",
+                            "portion_price": "3,50"
+                        },
+                        {
+                            "code": "RA036",
+                            "name_es": "Brie frito con salsa de arándanos",
+                            "name_en": "Fried brie with blueberry sauce",
+                            "name_fr": "Brie frit sauce aux myrtilles",
+                            "name_it": "Brie fritto con salsa di mirtilli",
+                            "name_ru": "Жареный бри с черничным соусом",
+                            "portion_price": "2,95"
+                        },
+                        {
+                            "code": "RA037",
+                            "name_es": "Croquetas caseras jamón",
+                            "name_en": "Homemade ham croquettes",
+                            "name_fr": "Croquettes maison au jambon",
+                            "name_it": "Crocchette fatte in casa al prosciutto",
+                            "name_ru": "Домашние крокеты с ветчиной",
+                            "portion_price": "1,75"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "code": "TS",
+            "ES_title": "Tostas",
+            "EN_title": "Toasts",
+            "FR_title": "Tartines",
+            "IT_title": "Tostate",
+            "RU_title": "Тосты",
+            "sub_sections": [
+                {
+                    "ES_SubTitle": "Calientes",
+                    "EN_SubTitle": "Hot",
+                    "FR_SubTitle": "Chaudes",
+                    "IT_SubTitle": "Calde",
+                    "RU_SubTitle": "Горячие",
+                    "items": [
+                        {
+                            "code": "TS001",
+                            "name_es": "Chorizo picante",
+                            "name_en": "Spicy chorizo",
+                            "name_fr": "Chorizo épicé",
+                            "name_it": "Chorizo piccante",
+                            "name_ru": "Острый чорисо",
+                            "price": "2,50"
+                        },
+                        {
+                            "code": "TS002",
+                            "name_es": "Morcilla de Burgos",
+                            "name_en": "Burgos blood sausage",
+                            "name_fr": "Boudin noir de Burgos",
+                            "name_it": "Sanguinaccio di Burgos",
+                            "name_ru": "Кровяная колбаса из Бургоса",
+                            "price": "2,50"
+                        },
+                        {
+                            "code": "TS003",
+                            "name_es": "Choto plancha",
+                            "name_en": "Grilled choto",
+                            "name_fr": "Choto grillé",
+                            "name_it": "Choto alla griglia",
+                            "name_ru": "Жареный чото",
+                            "price": "5,75"
+                        },
+                        {
+                            "code": "TS004",
+                            "name_es": "Longaniza",
+                            "name_en": "Longaniza sausage",
+                            "name_fr": "Saucisse longaniza",
+                            "name_it": "Salsiccia longaniza",
+                            "name_ru": "Колбаса лонганиса",
+                            "price": "2,50"
+                        },
+                        {
+                            "code": "TS005",
+                            "name_es": "Beicon y Queso",
+                            "name_en": "Bacon and cheese",
+                            "name_fr": "Bacon et fromage",
+                            "name_it": "Bacon e formaggio",
+                            "name_ru": "Бекон и сыр",
+                            "price": "2,95"
+                        }
+                    ]
+                },
+                {
+                    "ES_SubTitle": "Frías",
+                    "EN_SubTitle": "Cold",
+                    "FR_SubTitle": "Froides",
+                    "IT_SubTitle": "Fredde",
+                    "RU_SubTitle": "Холодные",
+                    "items": [
+                        {
+                            "code": "TS006",
+                            "name_es": "Salmón Noruego",
+                            "name_en": "Norwegian salmon",
+                            "name_fr": "Saumon norvégien",
+                            "name_it": "Salmone norvegese",
+                            "name_ru": "Норвежский лосось",
+                            "price": "3,00"
+                        },
+                        {
+                            "code": "TS007",
+                            "name_es": "Mojama de Atún",
+                            "name_en": "Tuna mojama",
+                            "name_fr": "Mojama de thon",
+                            "name_it": "Mojama di tonno",
+                            "name_ru": "Тунец можама",
+                            "price": "3,00"
+                        },
+                        {
+                            "code": "TS008",
+                            "name_es": "Anchoas del Cantábrico",
+                            "name_en": "Cantabrian anchovies",
+                            "name_fr": "Anchois de Cantabrie",
+                            "name_it": "Acciughe del Cantabrico",
+                            "name_ru": "Кантабрийские анчоусы",
+                            "price": "3,00"
+                        },
+                        {
+                            "code": "TS009",
+                            "name_es": "Queso Curado",
+                            "name_en": "Cured cheese",
+                            "name_fr": "Fromage affiné",
+                            "name_it": "Formaggio stagionato",
+                            "name_ru": "Выдержанный сыр",
+                            "price": "2,50"
+                        },
+                        {
+                            "code": "TS010",
+                            "name_es": "Lacón a la Gallega",
+                            "name_en": "Galician-style lacón",
+                            "name_fr": "Lacón à la galicienne",
+                            "name_it": "Lacón alla galiziana",
+                            "name_ru": "Лакон по-галисийски",
+                            "price": "2,50"
+                        },
+                        {
+                            "code": "TS011",
+                            "name_es": "Atún con tomate",
+                            "name_en": "Tuna with tomato",
+                            "name_fr": "Thon à la tomate",
+                            "name_it": "Tonno al pomodoro",
+                            "name_ru": "Тунец с томатом",
+                            "price": "2,50"
+                        }
+                    ]
+                },
+                {
+                    "ES_SubTitle": "Ibéricas",
+                    "EN_SubTitle": "Iberian",
+                    "FR_SubTitle": "Ibériques",
+                    "IT_SubTitle": "Iberiche",
+                    "RU_SubTitle": "Иберийские",
+                    "items": [
+                        {
+                            "code": "TS012",
+                            "name_es": "Salchichón",
+                            "name_en": "Salchichón",
+                            "name_fr": "Salchichón",
+                            "name_it": "Salchichón",
+                            "name_ru": "Сальчичон",
+                            "price": "2,50"
+                        },
+                        {
+                            "code": "TS013",
+                            "name_es": "Chorizo",
+                            "name_en": "Chorizo",
+                            "name_fr": "Chorizo",
+                            "name_it": "Chorizo",
+                            "name_ru": "Чорисо",
+                            "price": "2,50"
+                        },
+                        {
+                            "code": "TS014",
+                            "name_es": "Lomo",
+                            "name_en": "Pork loin",
+                            "name_fr": "Longe de porc",
+                            "name_it": "Lombo",
+                            "name_ru": "Свинина (ломо)",
+                            "price": "2,50"
+                        },
+                        {
+                            "code": "TS015",
+                            "name_es": "Jamón",
+                            "name_en": "Ham",
+                            "name_fr": "Jambon",
+                            "name_it": "Prosciutto",
+                            "name_ru": "Ветчина",
+                            "price": "3,00"
+                        }
+                    ]
+                },
+                {
+                    "code": "CA",
+                    "ES_title": "Carnes",
+                    "EN_title": "Meats",
+                    "FR_title": "Viandes",
+                    "IT_title": "Carni",
+                    "RU_title": "Мясо",
+                    "items": [
+                        {
+                            "code": "CA001",
+                            "name_es": "Pepito de Choto",
+                            "name_en": "Choto sandwich",
+                            "name_fr": "Sandwich de choto",
+                            "name_it": "Panino al choto",
+                            "name_ru": "Сэндвич с чото",
+                            "price": "8,95"
+                        },
+                        {
+                            "code": "CA002",
+                            "name_es": "Entrecott de Choto plancha",
+                            "name_en": "Grilled choto entrecôte",
+                            "name_fr": "Entrecôte de choto grillée",
+                            "name_it": "Entrecôte di choto alla griglia",
+                            "name_ru": "Антрекот чото на гриле",
+                            "price": "21,00"
+                        },
+                        {
+                            "code": "CA003",
+                            "name_es": "Entrecott de Choto troceado",
+                            "name_en": "Chopped choto entrecôte",
+                            "name_fr": "Entrecôte de choto en morceaux",
+                            "name_it": "Entrecôte di choto a pezzi",
+                            "name_ru": "Антрекот чото нарезанный",
+                            "price": "22,00"
+                        },
+                        {
+                            "code": "CA004",
+                            "name_es": "Filete de ternera (Choto)",
+                            "name_en": "Veal steak (choto)",
+                            "name_fr": "Steak de veau (choto)",
+                            "name_it": "Bistecca di vitello (choto)",
+                            "name_ru": "Телячий стейк (чото)",
+                            "price": "13,90"
+                        },
+                        {
+                            "code": "CA005",
+                            "name_es": "Solomillo de ternera plancha",
+                            "name_en": "Grilled beef sirloin",
+                            "name_fr": "Filet de bœuf grillé",
+                            "name_it": "Filetto di manzo alla griglia",
+                            "name_ru": "Говяжья вырезка на гриле",
+                            "price": "23,00"
+                        },
+                        {
+                            "code": "CA006",
+                            "name_es": "Chuletas de cordero lechal",
+                            "name_en": "Suckling lamb chops",
+                            "name_fr": "Côtelettes d'agneau de lait",
+                            "name_it": "Costolette di agnello da latte",
+                            "name_ru": "Отбивные из молочного ягнёнка",
+                            "price": "20,95"
+                        },
+                        {
+                            "code": "CA007",
+                            "name_es": "Muslo de pollo deshuesado plancha",
+                            "name_en": "Grilled boneless chicken thigh",
+                            "name_fr": "Cuisse de poulet désossée grillée",
+                            "name_it": "Sovraccoscia di pollo disossata alla griglia",
+                            "name_ru": "Куриное бедро без костей на гриле",
+                            "price": "11,95"
+                        },
+                        {
+                            "code": "CA008",
+                            "name_es": "Chuletón 600gr.",
+                            "name_en": "Rib steak 600g",
+                            "name_fr": "Côte de bœuf 600g",
+                            "name_it": "Costata 600g",
+                            "name_ru": "Стейк на кости 600г",
+                            "price": "27,95"
+                        },
+                        {
+                            "code": "CA009",
+                            "name_es": "Chuletón 600gr. Troceado",
+                            "name_en": "Rib steak 600g (chopped)",
+                            "name_fr": "Côte de bœuf 600g (en morceaux)",
+                            "name_it": "Costata 600g (a pezzi)",
+                            "name_ru": "Стейк 600г (нарезанный)",
+                            "price": "28,95"
+                        }
+                    ]
+                },
+                {
+                    "code": "PE",
+                    "ES_title": "Pescados",
+                    "EN_title": "Fish",
+                    "FR_title": "Poissons",
+                    "IT_title": "Pesci",
+                    "RU_title": "Рыба",
+                    "items": [
+                        {
+                            "code": "PE001",
+                            "name_es": "Lubina a la plancha",
+                            "name_en": "Grilled sea bass",
+                            "name_fr": "Loup de mer grillé",
+                            "name_it": "Branzino alla griglia",
+                            "name_ru": "Сибас на гриле",
+                            "price": "14,50"
+                        },
+                        {
+                            "code": "PE002",
+                            "name_es": "Dorada a la plancha",
+                            "name_en": "Grilled gilthead bream",
+                            "name_fr": "Dorade grillée",
+                            "name_it": "Orata alla griglia",
+                            "name_ru": "Дорада на гриле",
+                            "price": "14,50"
+                        },
+                        {
+                            "code": "PE003",
+                            "name_es": "Emperador grillé",
+                            "name_en": "Grilled swordfish",
+                            "name_fr": "Espadon grillé",
+                            "name_it": "Pesce spada alla griglia",
+                            "name_ru": "Рыба-меч на гриле",
+                            "price": "14,50"
+                        }
+                    ]
+                },
+                {
+                    "code": "EN",
+                    "ES_title": "Ensaladas",
+                    "EN_title": "Salads",
+                    "FR_title": "Salades",
+                    "IT_title": "Insalate",
+                    "RU_title": "Салаты",
+                    "items": [
+                        {
+                            "code": "EN001",
+                            "name_es": "Mixta Nou Delfín",
+                            "name_en": "Nou Delfín mixed salad",
+                            "name_fr": "Salade mixte Nou Delfín",
+                            "name_it": "Insalata mista Nou Delfín",
+                            "name_ru": "Салат Микста Ноу Дельфин",
+                            "price": "11,85"
+                        },
+                        {
+                            "code": "EN002",
+                            "name_es": "Mixta 1prs",
+                            "name_en": "Mixed salad (1 person)",
+                            "name_fr": "Salade mixte (1 pers)",
+                            "name_it": "Insalata mista (1 persona)",
+                            "name_ru": "Смешанный салат (1 порция)",
+                            "price": "5,95"
+                        },
+                        {
+                            "code": "EN003",
+                            "name_es": "De la Huerta",
+                            "name_en": "Garden salad",
+                            "name_fr": "Salade du potager",
+                            "name_it": "Insalata dell’orto",
+                            "name_ru": "Овощной салат",
+                            "price": "7,95"
+                        },
+                        {
+                            "code": "EN004",
+                            "name_es": "Tomate preparado",
+                            "name_en": "Seasoned tomato",
+                            "name_fr": "Tomate assaisonnée",
+                            "name_it": "Pomodoro condito",
+                            "name_ru": "Томат по‑домашнему",
+                            "price": "5,95"
+                        },
+                        {
+                            "code": "EN005",
+                            "name_es": "Tomate acompañado",
+                            "name_en": "Tomato with accompaniment",
+                            "name_fr": "Tomate garnie",
+                            "name_it": "Pomodoro accompagnato",
+                            "name_ru": "Томат с добавками",
+                            "price": "10,95"
+                        },
+                        {
+                            "code": "EN006",
+                            "name_es": "Tomate con salazones",
+                            "name_en": "Tomato with cured fish",
+                            "name_fr": "Tomate aux poissons salés",
+                            "name_it": "Pomodoro con salagioni",
+                            "name_ru": "Томат с вяленой рыбой",
+                            "price": "14,50"
+                        }
+                    ]
+                },
+                {
+                    "code": "AR",
+                    "ES_title": "Arroces",
+                    "EN_title": "Rice Dishes",
+                    "FR_title": "Riz",
+                    "IT_title": "Piatti di Riso",
+                    "RU_title": "Рисовые блюда",
+                    "items": [
+                        {
+                            "code": "AR001",
+                            "name_es": "Abanda",
+                            "name_en": "Abanda rice",
+                            "name_fr": "Riz Abanda",
+                            "name_it": "Riso Abanda",
+                            "name_ru": "Рис Абанда",
+                            "price": "12,90"
+                        },
+                        {
+                            "code": "AR002",
+                            "name_es": "Magro y verduras",
+                            "name_en": "Pork and vegetables rice",
+                            "name_fr": "Riz au porc et légumes",
+                            "name_it": "Riso con maiale e verdure",
+                            "name_ru": "Рис со свининой и овощами",
+                            "price": "12,90"
+                        },
+                        {
+                            "code": "AR003",
+                            "name_es": "Negro",
+                            "name_en": "Black rice (squid ink)",
+                            "name_fr": "Riz noir (à l'encre de seiche)",
+                            "name_it": "Riso nero (al nero di seppia)",
+                            "name_ru": "Чёрный рис с чернилами каракатицы",
+                            "price": "12,90"
+                        },
+                        {
+                            "code": "AR004",
+                            "name_es": "Magro y Pollo",
+                            "name_en": "Pork and chicken rice",
+                            "name_fr": "Riz au porc et poulet",
+                            "name_it": "Riso con maiale e pollo",
+                            "name_ru": "Рис со свининой и курицей",
+                            "price": "13,90"
+                        },
+                        {
+                            "code": "AR005",
+                            "name_es": "Del Señoret",
+                            "name_en": "Señoret rice",
+                            "name_fr": "Riz du Señoret",
+                            "name_it": "Riso del Señoret",
+                            "name_ru": "Рис дель Сеньорет",
+                            "price": "16,50"
+                        },
+                        {
+                            "code": "AR006",
+                            "name_es": "Alicantino (pollo y marisco)",
+                            "name_en": "Alicantino rice (chicken & seafood)",
+                            "name_fr": "Riz alicantin (poulet et fruits de mer)",
+                            "name_it": "Riso alicantino (pollo e frutti di mare)",
+                            "name_ru": "Аликантийский рис (курица и море)",
+                            "price": "15,50"
+                        },
+                        {
+                            "code": "AR007",
+                            "name_es": "Marisco",
+                            "name_en": "Seafood rice",
+                            "name_fr": "Riz aux fruits de mer",
+                            "name_it": "Riso ai frutti di mare",
+                            "name_ru": "Рис с морепродуктами",
+                            "price": "16,50"
+                        },
+                        {
+                            "code": "AR008",
+                            "name_es": "Conejo y caracoles",
+                            "name_en": "Rabbit and snails rice",
+                            "name_fr": "Riz au lapin et escargots",
+                            "name_it": "Riso con coniglio e lumache",
+                            "name_ru": "Рис с кроликом и улитками",
+                            "price": "16,00"
+                        },
+                        {
+                            "code": "AR009",
+                            "name_es": "Bogavante",
+                            "name_en": "Lobster rice",
+                            "name_fr": "Riz au homard",
+                            "name_it": "Riso all'astice",
+                            "name_ru": "Рис с лобстером",
+                            "price": "19,00"
+                        },
+                        {
+                            "code": "AR010",
+                            "name_es": "Nou Delfín",
+                            "name_en": "Nou Delfín special rice",
+                            "name_fr": "Riz spécial Nou Delfín",
+                            "name_it": "Riso speciale Nou Delfín",
+                            "name_ru": "Особенный рис Ноу Дельфин",
+                            "price": "17,50"
+                        },
+                        {
+                            "code": "AR011",
+                            "name_es": "Solomillo, Setas y Foie",
+                            "name_en": "Sirloin, mushrooms & foie rice",
+                            "name_fr": "Riz au filet, champignons et foie",
+                            "name_it": "Riso con filetto, funghi e foie gras",
+                            "name_ru": "Рис с вырезкой, грибами и фуа-гра",
+                            "price": "17,00"
+                        },
+                        {
+                            "code": "AR012",
+                            "name_es": "Fideuá Magro y Verduras",
+                            "name_en": "Fideuá with pork & vegetables",
+                            "name_fr": "Fideuá au porc et légumes",
+                            "name_it": "Fideuá con maiale e verdure",
+                            "name_ru": "Фидеуа со свининой и овощами",
+                            "price": "13,50"
+                        },
+                        {
+                            "code": "AR013",
+                            "name_es": "Fideuá Marinera",
+                            "name_en": "Seafood fideuá",
+                            "name_fr": "Fideuá marine",
+                            "name_it": "Fideuá marinara",
+                            "name_ru": "Фидеуа с морепродуктами",
+                            "price": "14,50"
+                        }
+                    ]
+                },
+                {
+                    "code": "PO",
+                    "ES_title": "Postres",
+                    "EN_title": "Desserts",
+                    "FR_title": "Desserts",
+                    "IT_title": "Dolci",
+                    "RU_title": "Десерты",
+                    "items": [
+                        {
+                            "code": "PO001",
+                            "name_es": "Natillas",
+                            "name_en": "Custard",
+                            "name_fr": "Crème dessert",
+                            "name_it": "Crema alla vaniglia",
+                            "name_ru": "Заварной крем",
+                            "price": "4,50"
+                        },
+                        {
+                            "code": "PO002",
+                            "name_es": "Torrijas",
+                            "name_en": "Spanish-style french toast",
+                            "name_fr": "Pain perdu espagnol",
+                            "name_it": "Torrijas spagnole",
+                            "name_ru": "Испанские тосты",
+                            "price": "4,50"
+                        },
+                        {
+                            "code": "PO003",
+                            "name_es": "Pan de Calatrava",
+                            "name_en": "Calatrava bread pudding",
+                            "name_fr": "Flan Calatrava",
+                            "name_it": "Pane di Calatrava",
+                            "name_ru": "Калатравский пудинг",
+                            "price": "4,50"
+                        },
+                        {
+                            "code": "PO004",
+                            "name_es": "Arroz con leche",
+                            "name_en": "Rice pudding",
+                            "name_fr": "Riz au lait",
+                            "name_it": "Riso al latte",
+                            "name_ru": "Рисовый пудинг",
+                            "price": "4,50"
+                        },
+                        {
+                            "code": "PO005",
+                            "name_es": "Flan de huevo casero",
+                            "name_en": "Homemade egg flan",
+                            "name_fr": "Flan aux œufs maison",
+                            "name_it": "Flan di uova fatto in casa",
+                            "name_ru": "Домашний яичный флан",
+                            "price": "4,50"
+                        },
+                        {
+                            "code": "PO006",
+                            "name_es": "Tarta (chocolate, zanahoria, queso, almendras)",
+                            "name_en": "Cake (chocolate, carrot, cheese, almonds)",
+                            "name_fr": "Gâteau (chocolat, carotte, fromage, amandes)",
+                            "name_it": "Torta (cioccolato, carota, formaggio, mandorle)",
+                            "name_ru": "Торт (шоколад, морковь, сыр, миндаль)",
+                            "price": "5,00"
+                        },
+                        {
+                            "code": "PO007",
+                            "name_es": "Souflé de limón",
+                            "name_en": "Lemon soufflé",
+                            "name_fr": "Soufflé au citron",
+                            "name_it": "Soufflé al limone",
+                            "name_ru": "Лимонное суфле",
+                            "price": "5,00"
+                        },
+                        {
+                            "code": "PO008",
+                            "name_es": "Coulant de chocolate",
+                            "name_en": "Chocolate coulant",
+                            "name_fr": "Coulant au chocolat",
+                            "name_it": "Coulant al cioccolato",
+                            "name_ru": "Шоколадный кулан",
+                            "price": "5,00"
+                        },
+                        {
+                            "code": "PO009",
+                            "name_es": "Tarrina de helado",
+                            "name_en": "Ice cream cup",
+                            "name_fr": "Coupe de glace",
+                            "name_it": "Coppetta di gelato",
+                            "name_ru": "Стаканчик мороженого",
+                            "price": "2,40"
+                        },
+                        {
+                            "code": "PO010",
+                            "name_es": "Fruta de temporada",
+                            "name_en": "Seasonal fruit",
+                            "name_fr": "Fruit de saison",
+                            "name_it": "Frutta di stagione",
+                            "name_ru": "Сезонные фрукты",
+                            "price": "2,50"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,321 @@
+{
+    "sections": [
+        {
+            "code": "BE",
+            "ES_title": "Bebidas",
+            "EN_title": "Drinks",
+            "FR_title": "Boissons",
+            "IT_title": "Bevande",
+            "RU_title": "Напитки",
+            "items": [
+                {
+                    "code": "BE001",
+                    "name_es": "Jarra de cerveza 1l",
+                    "name_en": "1L beer pitcher",
+                    "name_fr": "Pichet de bière 1L",
+                    "name_it": "Caraffa di birra 1L",
+                    "name_ru": "Кувшин пива 1л",
+                    "price": "10,80"
+                },
+                {
+                    "code": "BE002",
+                    "name_es": "Pinta",
+                    "name_en": "Pint",
+                    "name_fr": "Pinte",
+                    "name_it": "Pinta",
+                    "name_ru": "Пинта",
+                    "price": "4,00"
+                },
+                {
+                    "code": "BE003",
+                    "name_es": "Jarra de Sangría 1l",
+                    "name_en": "1L Sangria pitcher",
+                    "name_fr": "Pichet de sangria 1L",
+                    "name_it": "Caraffa di sangria 1L",
+                    "name_ru": "Кувшин сангрии 1л",
+                    "price": "11,70"
+                },
+                {
+                    "code": "BE004",
+                    "name_es": "Tercio Amstel",
+                    "name_en": "Amstel (33cl)",
+                    "name_fr": "Amstel (33cl)",
+                    "name_it": "Amstel (33cl)",
+                    "name_ru": "Amstel (33cl)",
+                    "price": "2,75"
+                },
+                {
+                    "code": "BE005",
+                    "name_es": "Tercio Heineken",
+                    "name_en": "Heineken (33cl)",
+                    "name_fr": "Heineken (33cl)",
+                    "name_it": "Heineken (33cl)",
+                    "name_ru": "Heineken (33cl)",
+                    "price": "3,00"
+                },
+                {
+                    "code": "BE006",
+                    "name_es": "Tercio Heineken 0,0",
+                    "name_en": "Heineken 0.0 (33cl)",
+                    "name_fr": "Heineken 0.0 (33cl)",
+                    "name_it": "Heineken 0.0 (33cl)",
+                    "name_ru": "Heineken 0.0 (33cl)",
+                    "price": "3,00"
+                },
+                {
+                    "code": "BE007",
+                    "name_es": "Aguila sin filtrar",
+                    "name_en": "Águila unfiltered",
+                    "name_fr": "Águila non filtrée",
+                    "name_it": "Águila non filtrata",
+                    "name_ru": "Aguila нефильтрованное",
+                    "price": "3,00"
+                },
+                {
+                    "code": "BE008",
+                    "name_es": "Tercio Aguila 1900",
+                    "name_en": "Águila 1900 (33cl)",
+                    "name_fr": "Águila 1900 (33cl)",
+                    "name_it": "Águila 1900 (33cl)",
+                    "name_ru": "Aguila 1900 (33cl)",
+                    "price": "2,75"
+                },
+                {
+                    "code": "BE009",
+                    "name_es": "Tercio Alcázar",
+                    "name_en": "Alcázar (33cl)",
+                    "name_fr": "Alcázar (33cl)",
+                    "name_it": "Alcázar (33cl)",
+                    "name_ru": "Alcázar (33cl)",
+                    "price": "3,00"
+                },
+                {
+                    "code": "BE010",
+                    "name_es": "Tercio Amstel Oro tostada 0,0",
+                    "name_en": "Amstel Oro Toasted 0.0 (33cl)",
+                    "name_fr": "Amstel Oro Toasted 0.0 (33cl)",
+                    "name_it": "Amstel Oro Toasted 0.0 (33cl)",
+                    "name_ru": "Amstel Oro Toasted 0.0 (33cl)",
+                    "price": "3,00"
+                },
+                {
+                    "code": "BE011",
+                    "name_es": "Cerveza sin gluten",
+                    "name_en": "Gluten‑free beer",
+                    "name_fr": "Bière sans gluten",
+                    "name_it": "Birra senza glutine",
+                    "name_ru": "Пиво без глютена",
+                    "price": "2,50"
+                },
+                {
+                    "code": "BE012",
+                    "name_es": "Caña",
+                    "name_en": "Draft beer (small)",
+                    "name_fr": "Bière pression (petite)",
+                    "name_it": "Birra alla spina (piccola)",
+                    "name_ru": "Разливное пиво (мал.)",
+                    "price": "2,50"
+                },
+                {
+                    "code": "BE013",
+                    "name_es": "Nestea",
+                    "name_en": "Nestea",
+                    "name_fr": "Nestea",
+                    "name_it": "Nestea",
+                    "name_ru": "Nestea",
+                    "price": "2,75"
+                },
+                {
+                    "code": "BE014",
+                    "name_es": "Aquarius",
+                    "name_en": "Aquarius",
+                    "name_fr": "Aquarius",
+                    "name_it": "Aquarius",
+                    "name_ru": "Aquarius",
+                    "price": "2,75"
+                },
+                {
+                    "code": "BE015",
+                    "name_es": "Coca Cola",
+                    "name_en": "Coca-Cola",
+                    "name_fr": "Coca-Cola",
+                    "name_it": "Coca-Cola",
+                    "name_ru": "Кока-Кола",
+                    "price": "2,50"
+                },
+                {
+                    "code": "BE016",
+                    "name_es": "Tinto de verano",
+                    "name_en": "Summer red wine (spritz)",
+                    "name_fr": "Tinto de verano",
+                    "name_it": "Tinto de verano",
+                    "name_ru": "Тинто де верaно",
+                    "price": "2,75"
+                }
+            ]
+        },
+        {
+            "code": "WI",
+            "ES_title": "Carta de Vinos",
+            "EN_title": "Wine List",
+            "FR_title": "Carte des Vins",
+            "IT_title": "Carta dei Vini",
+            "RU_title": "Карта вин",
+            "sub_sections": [
+                {
+                    "ES_SubTitle": "Ribera Duero",
+                    "EN_SubTitle": "Ribera Duero",
+                    "FR_SubTitle": "Ribera Duero",
+                    "IT_SubTitle": "Ribera Duero",
+                    "RU_SubTitle": "Рибера Дуэро",
+                    "items": [
+                        {
+                            "code": "WI001",
+                            "name_es": "Carramimbre",
+                            "name_en": "Carramimbre",
+                            "name_fr": "Carramimbre",
+                            "name_it": "Carramimbre",
+                            "name_ru": "Carramimbre",
+                            "price": "16,00"
+                        },
+                        {
+                            "code": "WI002",
+                            "name_es": "Protos",
+                            "name_en": "Protos",
+                            "name_fr": "Protos",
+                            "name_it": "Protos",
+                            "name_ru": "Protos",
+                            "price": "19,00"
+                        }
+                    ]
+                },
+                {
+                    "ES_SubTitle": "Rioja",
+                    "EN_SubTitle": "Rioja",
+                    "FR_SubTitle": "Rioja",
+                    "IT_SubTitle": "Rioja",
+                    "RU_SubTitle": "Риоха",
+                    "items": [
+                        {
+                            "code": "WI003",
+                            "name_es": "Coto Mayor",
+                            "name_en": "Coto Mayor",
+                            "name_fr": "Coto Mayor",
+                            "name_it": "Coto Mayor",
+                            "name_ru": "Coto Mayor",
+                            "price": "16,00"
+                        },
+                        {
+                            "code": "WI004",
+                            "name_es": "Ramón Bilbao",
+                            "name_en": "Ramón Bilbao",
+                            "name_fr": "Ramón Bilbao",
+                            "name_it": "Ramón Bilbao",
+                            "name_ru": "Ramón Bilbao",
+                            "price": "18,00"
+                        },
+                        {
+                            "code": "WI005",
+                            "name_es": "Azpilicueta",
+                            "name_en": "Azpilicueta",
+                            "name_fr": "Azpilicueta",
+                            "name_it": "Azpilicueta",
+                            "name_ru": "Azpilicueta",
+                            "price": "16,00"
+                        },
+                        {
+                            "code": "WI006",
+                            "name_es": "Cune (Crianza 2019)",
+                            "name_en": "Cune (Crianza 2019)",
+                            "name_fr": "Cune (Crianza 2019)",
+                            "name_it": "Cune (Crianza 2019)",
+                            "name_ru": "Cune (Crianza 2019)",
+                            "price": "18,00"
+                        },
+                        {
+                            "code": "WI007",
+                            "name_es": "Montecillo (Crianza 2019)",
+                            "name_en": "Montecillo (Crianza 2019)",
+                            "name_fr": "Montecillo (Crianza 2019)",
+                            "name_it": "Montecillo (Crianza 2019)",
+                            "name_ru": "Montecillo (Crianza 2019)",
+                            "price": "18,00"
+                        }
+                    ]
+                },
+                {
+                    "ES_SubTitle": "Rosado",
+                    "EN_SubTitle": "Rosé",
+                    "FR_SubTitle": "Rosé",
+                    "IT_SubTitle": "Rosato",
+                    "RU_SubTitle": "Розовое",
+                    "items": [
+                        {
+                            "code": "WI008",
+                            "name_es": "Gran Feudo",
+                            "name_en": "Gran Feudo",
+                            "name_fr": "Gran Feudo",
+                            "name_it": "Gran Feudo",
+                            "name_ru": "Gran Feudo",
+                            "price": "10,90"
+                        }
+                    ]
+                },
+                {
+                    "ES_SubTitle": "Blancos",
+                    "EN_SubTitle": "White Wines",
+                    "FR_SubTitle": "Vins Blancs",
+                    "IT_SubTitle": "Vini Bianchi",
+                    "RU_SubTitle": "Белые вина",
+                    "items": [
+                        {
+                            "code": "WI009",
+                            "name_es": "Mocen (D.O. Rueda Verdejo 100%)",
+                            "name_en": "Mocen (D.O. Rueda Verdejo 100%)",
+                            "name_fr": "Mocen (D.O. Rueda Verdejo 100%)",
+                            "name_it": "Mocen (D.O. Rueda Verdejo 100%)",
+                            "name_ru": "Mocen (D.O. Rueda Verdejo 100%)",
+                            "price": "13,90"
+                        },
+                        {
+                            "code": "WI010",
+                            "name_es": "Marqués de Vizhoja (Albariño)",
+                            "name_en": "Marqués de Vizhoja (Albariño)",
+                            "name_fr": "Marqués de Vizhoja (Albariño)",
+                            "name_it": "Marqués de Vizhoja (Albariño)",
+                            "name_ru": "Marqués de Vizhoja (Albariño)",
+                            "price": "14,50"
+                        },
+                        {
+                            "code": "WI011",
+                            "name_es": "Marqués de Frías (Albariño)",
+                            "name_en": "Marqués de Frías (Albariño)",
+                            "name_fr": "Marqués de Frías (Albariño)",
+                            "name_it": "Marqués de Frías (Albariño)",
+                            "name_ru": "Marqués de Frías (Albariño)",
+                            "price": "16,00"
+                        },
+                        {
+                            "code": "WI012",
+                            "name_es": "Barbadillo",
+                            "name_en": "Barbadillo",
+                            "name_fr": "Barbadillo",
+                            "name_it": "Barbadillo",
+                            "name_ru": "Barbadillo",
+                            "price": "12,50"
+                        },
+                        {
+                            "code": "WI013",
+                            "name_es": "Marina Alta (D.O. Alicante)",
+                            "name_en": "Marina Alta (D.O. Alicante)",
+                            "name_fr": "Marina Alta (D.O. Alicante)",
+                            "name_it": "Marina Alta (D.O. Alicante)",
+                            "name_ru": "Marina Alta (D.O. Alicante)",
+                            "price": "14,00"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

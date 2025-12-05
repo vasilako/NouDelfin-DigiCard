@@ -1,0 +1,101 @@
+/* ================================
+   CONTENEDOR Y FONDO
+================================ */
+body {
+  /* Fondo general con textura washi */
+  background: #f7f6f3 url('../img/washi-light.png') repeat;
+  background-size: 500px;
+}
+
+.menu-container {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 95px 22px 50px;
+}
+
+/* ================================
+   TÍTULO PRINCIPAL
+================================ */
+.page-title {
+  text-align: center;
+  font-size: 1.9rem;
+  padding-bottom: 12px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #cfc8bc;
+  font-family: 'Marcellus', serif;
+}
+
+/* ================================
+   SECCIONES
+================================ */
+.menu-section-title {
+  font-size: 1.45rem;
+  margin: 32px 0 12px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #d8d2c9;
+  font-weight: 500;
+  color: #222;
+  letter-spacing: 0.02em;
+  font-family: 'Marcellus', serif;
+}
+
+.sub-section-title {
+  font-size: 1.13rem;
+  color: #4a4a4a;
+  margin: 20px 0 10px 0;
+  padding-left: 8px;
+  border-left: 3px solid #d7b26a;
+  font-weight: 400;
+  font-family: 'Marcellus', serif;
+}
+
+/* ================================
+   ITEMS ESTILO JAPÓN MINIMAL
+================================ */
+.menu-item {
+  padding: 14px 8px;
+  border-bottom: 1px solid #e9e4dd;   /* línea fina japonesa */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.15s;
+}
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item:hover {
+  background: rgba(44,104,197,0.05);
+}
+
+.item-name {
+  font-size: 1.07rem;
+  color: #222;
+  font-family: 'Marcellus', serif;
+}
+
+.item-price {
+  font-size: 1.07rem;
+  color: #333;
+  min-width: 70px;
+  text-align: right;
+  font-family: 'Marcellus', serif;
+}
+
+.item-price .half-price {
+  color: #9d8c6c;
+  font-size: 0.94em;
+  margin-left: 10px;
+}
+
+/* ================================
+   RESPONSIVO
+================================ */
+@media (max-width: 480px) {
+  .menu-container {
+    padding: 80px 6px 32px;
+  }
+  .page-title { font-size: 1.6rem; }
+  .menu-section-title { font-size: 1.11rem; }
+  .item-name, .item-price { font-size: 0.99rem; }
+}

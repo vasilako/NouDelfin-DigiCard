@@ -1,0 +1,165 @@
+/* ================================
+   Reset de listas & Menú centrado
+================================ */
+.buttons ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+.buttons ul li {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* ================================
+   Fondo global
+================================ */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Marcellus", serif;
+  background-color: #2a2e35;  /* gris marino oscuro */
+  color: #138edb;
+  overflow-x: hidden;
+}
+
+/* ================================
+   CONTAINER con fondo imagen
+================================ */
+.container {
+  min-width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+
+  background: url("../img/background.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+/* ================================
+   LANGUAGE SELECTOR
+================================ */
+.language-selector ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 18px 0 7px 0;
+  margin: 0;
+}
+.language-selector button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+.language-selector button.active {
+  outline: 3px solid #2e51ee;
+}
+.language-selector .fi {
+  font-size: 30px !important;
+  width: 36px !important;
+  height: 26px !important;
+  border-radius: 6px;
+}
+
+/* ================================
+   LOGO
+================================ */
+.logo img {
+  width: 230px;
+  margin: 12px auto 18px auto;
+  display: block;
+}
+
+/* ================================
+   MENÚS
+================================ */
+.menus h2 {
+  font-size: 1.5rem;
+  margin: 16px 0 20px 0;
+  color: #255ae4;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.menu-btn {
+  display: block;
+  width: 86%;
+  max-width: 330px;
+  margin: 10px auto;
+  background: #25b8e4;
+  border: 1px solid #fff;
+  color: #f8f8f8;
+  padding: 14px 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 1.17rem;
+  font-family: inherit;
+  transition: 0.3s;
+  box-shadow: 0 1px 8px rgba(40,100,140,0.08);
+}
+.menu-btn:hover,
+.menu-btn:focus {
+  background: #169dd7;
+  color: #fff;
+  border-color: #eef6ff;
+}
+
+/* ================================
+   HERO
+================================ */
+.hero img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 18px 0 18px 0;
+}
+
+/* ================================
+   LOCATION
+================================ */
+.location p {
+  font-size: 0.98rem;
+  margin: 6px 0 18px 0;
+  line-height: 1.45rem;
+  color: #2656a7;
+}
+.qr img,
+.map-link img {
+  width: 110px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+/* ================================
+   FOOTER
+================================ */
+footer {
+  margin-top: 30px;
+  padding: 20px 0;
+  font-size: 0.88rem;
+  opacity: 0.97;
+}
+.footer-content {
+  color: #0baeef;
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+@media (max-width: 480px) {
+  .logo img { width: 150px; }
+  .menu-btn { font-size: 1.03rem; }
+  .language-selector .fi { font-size: 21px !important; width: 25px !important; }
+  .container { padding: 9px 0 0 0; }
+}

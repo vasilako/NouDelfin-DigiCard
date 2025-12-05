@@ -1,0 +1,170 @@
+/* ---------------------------
+   FONDO WASHI — estilo japonés
+----------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Marcellus', serif;
+  background: #f7f6f3 url('img/washi-light.png') repeat;
+  background-size: 480px;
+  color: #111;
+}
+
+/* ---------------------------
+   CONTENEDOR DEL MENÚ
+----------------------------*/
+.menu-container {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 95px 22px 50px; /* altura ajustada al header */
+}
+
+/* ---------------------------
+   CABECERA FIJA
+----------------------------*/
+.top-bar {
+  position: fixed;
+margin: 0;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #dfd7c9;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   /* ← FIX importante */
+
+  padding: 0 16px;
+  z-index: 99999;
+}
+
+/* ---------------------------
+   BANDERAS
+----------------------------*/
+.flags {
+ flex: 0 0 auto; 
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.lang-btn .fi {
+  font-size: 22px;
+}
+
+.lang-btn.active {
+  outline: 2px solid #d7b26a;
+  border-radius: 5px;
+}
+
+/* ---------------------------
+   BOTÓN VOLVER
+----------------------------*/
+.back-btn {
+  flex: 0 0 auto; 
+  text-decoration: none;
+  color: #333;
+  font-size: 1.05rem;
+  padding: 6px 10px;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.back-btn:hover {
+  color: #000;
+}
+
+/* ---------------------------
+   TÍTULO PRINCIPAL
+----------------------------*/
+.page-title {
+  text-align: center;
+  font-size: 1.9rem;
+  padding-bottom: 12px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #cfc8bc;
+}
+
+/* ---------------------------
+   SECCIONES
+----------------------------*/
+.menu-section-title {
+  font-size: 1.45rem;
+  margin: 30px 0 12px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #d8d2c9;
+}
+
+/* Subtítulos (vinos) */
+.sub-section-title {
+  font-size: 1.18rem;
+  color: #4a4a4a;
+  margin: 20px 0 12px;
+  padding-left: 8px;
+  border-left: 3px solid #d7b26a;
+}
+
+/* ---------------------------
+   ITEMS JAPONES
+----------------------------*/
+.menu-item {
+  padding: 14px 8px;
+  border-bottom: 1px solid #e9e4dd;   /* línea fina japonesa */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.item-name {
+  font-size: 1.05rem;
+}
+
+.item-name .en,
+.item-name .fr,
+.item-name .it,
+.item-name .ru {
+  font-size: 0.86rem;
+  color: #666;
+  margin-top: 3px;
+}
+
+/* Precio */
+.item-price {
+  font-size: 1.08rem;
+  color: #111;
+}
+
+/* ---------------------------
+   RESPONSIVO
+----------------------------*/
+@media (max-width: 480px) {
+
+  .top-bar {
+    height: 68px;
+    padding: 0 12px;
+  }
+
+  .page-title {
+    font-size: 1.65rem;
+  }
+
+  .menu-item {
+    padding: 12px 4px;
+  }
+
+  .lang-btn .fi {
+    font-size: 18px;
+  }
+}

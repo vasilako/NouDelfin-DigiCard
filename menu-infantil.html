@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menú Infantil · Nou Delfín</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Iconos Banderas -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css"
+    />
+    <!-- Estilos generales y menú infantil -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/menu-infantil.css" />
+    <!-- JS idiomas -->
+    <script defer src="js/clear.js"></script>
+    <script defer src="js/language-select.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Selector de idioma -->
+      <header class="language-selector">
+        <ul>
+          <li>
+            <button data-lang="es" class="active" aria-label="Español">
+              <span class="fi fi-es"></span>
+            </button>
+          </li>
+          <li>
+            <button data-lang="en" aria-label="English">
+              <span class="fi fi-gb"></span>
+            </button>
+          </li>
+          <li>
+            <button data-lang="fr" aria-label="Français">
+              <span class="fi fi-fr"></span>
+            </button>
+          </li>
+          <li>
+            <button data-lang="it" aria-label="Italiano">
+              <span class="fi fi-it"></span>
+            </button>
+          </li>
+          <li>
+            <button data-lang="ru" aria-label="Русский">
+              <span class="fi fi-ru"></span>
+            </button>
+          </li>
+        </ul>
+      </header>
+
+      <!-- Menú Infantil Normal -->
+      <div class="kids-menu-card">
+        <h1
+          class="kids-menu-title"
+          data-es="Menú infantil"
+          data-en="Kids menu"
+          data-fr="Menu enfants"
+          data-it="Menu bambini"
+          data-ru="Детское меню"
+        >
+          Menú infantil
+        </h1>
+        <div class="kids-menu-items">
+          <div
+            data-es="1º Croquetas y calamares"
+            data-en="1st: Croquettes and calamari"
+            data-fr="1er: Croquettes et calamars"
+            data-it="1º: Crocchette e calamari"
+            data-ru="1: Крокеты и кальмары"
+          >
+            1º Croquetas y calamares
+          </div>
+          <div
+            data-es="2º Pollo empanado con patatas fritas"
+            data-en="2nd: Breaded chicken with fries"
+            data-fr="2e: Poulet pané avec frites"
+            data-it="2º: Pollo impanato con patatine"
+            data-ru="2: Курица в панировке с картофелем фри"
+          >
+            2º Pollo empanado con patatas fritas
+          </div>
+          <div
+            class="kids-menu-drink"
+            data-es="Una bebida incluida"
+            data-en="One drink included"
+            data-fr="Une boisson incluse"
+            data-it="Una bevanda inclusa"
+            data-ru="Включен напиток"
+          >
+            Una bebida incluida
+          </div>
+        </div>
+        <div class="kids-menu-price">
+          <span class="price-main">12</span><span class="price-cents">,95</span
+          ><span class="price-eur">€</span>
+        </div>
+        <div
+          class="kids-menu-note"
+          data-es="* Sólo para menores de 12 años"
+          data-en="* Only for children under 12"
+          data-fr="* Réservé aux moins de 12 ans"
+          data-it="* Solo per bambini sotto i 12 anni"
+          data-ru="* Только для детей до 12 лет"
+        >
+          * Sólo para menores de 12 años
+        </div>
+      </div>
+
+      <!-- Menú Infantil Especial — Multilenguaje igual que el Normal -->
+      <div class="kids-menu-card menu-infantil-especial">
+        <h1
+          class="menu-infantil-titulo"
+          data-es="Menú infantil Especial"
+          data-en="Special Kids Menu"
+          data-fr="Menu enfant Spécial"
+          data-it="Menu infantile Speciale"
+          data-ru="Детское меню Специальное"
+        >
+          Menú infantil Especial
+        </h1>
+        <div class="menu-infantil-bloque">
+          <div
+            class="primero"
+            data-es="Primero:"
+            data-en="First course:"
+            data-fr="Entrée&nbsp;:"
+            data-it="Primo:"
+            data-ru="Первое:"
+          >
+            Primero:
+          </div>
+          <div
+            class="plato"
+            data-es="Croquetas de Jamón y Calamares Andaluza"
+            data-en="Ham croquettes and Andalusian-style calamari"
+            data-fr="Croquettes de jambon et calamars andalous"
+            data-it="Crocchette di prosciutto e calamari alla andalusa"
+            data-ru="Крокеты с ветчиной и кальмары по-андалусски"
+          >
+            Croquetas de Jamón y Calamares Andaluza
+          </div>
+          <div
+            class="segundo"
+            data-es="Segundo:"
+            data-en="Second course:"
+            data-fr="Plat principal&nbsp;:"
+            data-it="Secondo:"
+            data-ru="Второе:"
+          >
+            Segundo:
+          </div>
+          <div
+            class="elige"
+            data-es="(A elegir entre)"
+            data-en="(Choose one)"
+            data-fr="(au choix)"
+            data-it="(Scegli uno)"
+            data-ru="(на выбор)"
+          >
+            (A elegir entre)
+          </div>
+          <div
+            class="plato"
+            data-es="Pechuga de Pollo empanada"
+            data-en="Breaded chicken breast"
+            data-fr="Escalope de poulet panée"
+            data-it="Petto di pollo impanato"
+            data-ru="Куриная грудка в панировке"
+          >
+            Pechuga de Pollo empanada
+          </div>
+          <span
+            class="aclaracion"
+            data-es="con patatas fritas"
+            data-en="with French fries"
+            data-fr="avec frites"
+            data-it="con patatine fritte"
+            data-ru="с картофелем фри"
+            >con patatas fritas</span
+          >
+          <div
+            class="plato"
+            data-es="Filetitos de Choto plancha"
+            data-en="Grilled baby goat fillets"
+            data-fr="Petits filets de chevreau grillés"
+            data-it="Filettini di capretto alla griglia"
+            data-ru="Бифштексы из козлятины на гриле"
+          >
+            Filetitos de Choto plancha
+          </div>
+          <span
+            class="aclaracion"
+            data-es="con patatas fritas"
+            data-en="with French fries"
+            data-fr="avec frites"
+            data-it="con patatine fritte"
+            data-ru="с картофелем фри"
+            >con patatas fritas</span
+          >
+          <div
+            class="postre"
+            data-es="Postre de la Casa"
+            data-en="Homemade dessert"
+            data-fr="Dessert maison"
+            data-it="Dessert della casa"
+            data-ru="Десерт от шефа"
+          >
+            Postre de la Casa
+          </div>
+          <div
+            class="bebida"
+            data-es="Bebida incluida"
+            data-en="Drink included"
+            data-fr="Boisson incluse"
+            data-it="Bevanda inclusa"
+            data-ru="Напиток включен"
+          >
+            Bebida incluida
+          </div>
+          <!-- PRECIO unificado con el normal -->
+          <div class="kids-menu-price">
+            <span class="price-main">18</span>
+            <span class="price-eur">€</span>
+          </div>
+          <div
+            class="kids-menu-note"
+            data-es="* Sólo para menores de 12 años"
+            data-en="* Only for children under 12"
+            data-fr="* Réservé aux enfants de moins de 12 ans"
+            data-it="* Solo per bambini sotto i 12 anni"
+            data-ru="* Только для детей до 12 лет"
+          >
+            * Sólo para menores de 12 años
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
