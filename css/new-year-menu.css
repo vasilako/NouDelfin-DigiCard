@@ -1,0 +1,56 @@
+.newyear-menu-card {
+  background: #fffdfa;
+  border-radius: 18px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.09);
+  border: 2px solid #ecd28a;
+  padding: 24px 16px 18px 16px;   /* <--- Menos padding */
+  max-width: 420px;               /* <--- Menos ancho para móviles */
+  margin: 32px auto 16px auto;    /* <--- Menos margen superior */
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  color: #333;
+  margin-top: 80px;              /* <--- Menos margen arriba */
+}
+.newyear-menu-title {
+  text-align: center;
+  font-size: 2em;                 /* <--- Un poco más pequeño */
+  font-weight: 700;
+  color: #bf8c22;
+  letter-spacing: 1px;
+  margin-bottom: 14px;            /* <--- Menos margen */
+}
+.newyear-menu-section {
+  margin-bottom: 11px;            /* <--- Menos separación */
+}
+.newyear-menu-section-title {
+  font-size: 1.4rem;              /* <--- Un poco más pequeño */
+  color: #a86b00;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: center;
+  border-bottom: #33333372 1px solid;
+}
+.newyear-menu-items {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 8px 0;
+}
+.newyear-menu-items li {
+  padding: 2px 0;                /* <--- Menos padding */
+  font-size: 1em;                /* <--- Un poco más compacto */
+}
+.newyear-menu-price {
+  text-align: center;
+  font-size: 1.8em;              /* <--- Menos grande */
+  font-weight: bold;
+  color: #c23e15;
+  margin-top: 18px;              /* <--- Menos separación arriba */
+  margin-bottom: 0;
+}
+.newyear-fireworks {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 45px;
+  opacity: 0.6;
+  pointer-events: none;
+}

@@ -29,25 +29,32 @@ body {
    SECCIONES
 ================================ */
 .menu-section-title {
-  font-size: 1.45rem;
-  margin: 32px 0 12px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid #d8d2c9;
-  font-weight: 500;
-  color: #222;
-  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 6px;
+  margin: 40px 0 18px;
+  letter-spacing: 0.06em;
   font-family: 'Marcellus', serif;
+  color: #212121;
+
+  /* Subrayado elegante */
+  border-bottom: 3px solid #d7b26a;  /* más grueso y color dorado */
 }
 
 .sub-section-title {
-  font-size: 1.13rem;
-  color: #4a4a4a;
-  margin: 20px 0 10px 0;
-  padding-left: 8px;
+  font-size: 1.17rem;
+  color: #353535;
+  margin: 20px 0 10px 5vw;
+max-width: 70%;
   border-left: 3px solid #d7b26a;
-  font-weight: 400;
+  border-bottom: 1px solid #d7b26a;
+  font-weight: 900; /* negrita */
   font-family: 'Marcellus', serif;
+  position: relative;
 }
+
 
 /* ================================
    ITEMS ESTILO JAPÓN MINIMAL

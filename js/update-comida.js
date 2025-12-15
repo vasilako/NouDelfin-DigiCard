@@ -9,53 +9,66 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function getCurrentLang() {
-  return localStorage.getItem("selectedLang") || "es";
+  return (localStorage.getItem("selectedLang") || "es").toLowerCase();
 }
 
 async function renderMenu(lang) {
+  lang = lang.toLowerCase(); // Asegura que siempre sea minúscula
   const res = await fetch("JSON/menu_comida.json");
   const data = await res.json();
   const root = document.getElementById("menu-comida");
   root.innerHTML = "";
+  data.sections.forEach((section) => console.log(section));
 
   data.sections.forEach((section) => {
-    // Título principal de sección
+    // No renderizar si no hay items ni sub-sections
+    if (!(section.items || section.sub_sections)) return;
+
+    const sectionWrapper = document.createElement("section");
+    sectionWrapper.className = "menu-section";
+
     const title = document.createElement("h2");
     title.className = "menu-section-title";
     title.textContent =
       section[`${lang.toUpperCase()}_title`] || section.ES_title;
-    root.appendChild(title);
 
-    // Sub-secciones (si existen, como en "Raciones", "Tostas" ...)
+    sectionWrapper.appendChild(title);
+
+    // Sub-secciones
     if (section.sub_sections) {
       section.sub_sections.forEach((sub) => {
         const subTitle = document.createElement("h3");
         subTitle.className = "sub-section-title";
         subTitle.textContent =
           sub[`${lang.toUpperCase()}_SubTitle`] || sub.ES_SubTitle;
-        root.appendChild(subTitle);
+
+        sectionWrapper.appendChild(subTitle);
 
         sub.items.forEach((item) => {
-          root.appendChild(renderItem(item, lang));
+          sectionWrapper.appendChild(renderItem(item, lang));
         });
       });
     }
 
-    // Items directos (sin sub-secciones)
+    // Items directos
     if (section.items) {
       section.items.forEach((item) => {
-        root.appendChild(renderItem(item, lang));
+        sectionWrapper.appendChild(renderItem(item, lang));
       });
     }
+
+    root.appendChild(sectionWrapper);
   });
 }
 
 function renderItem(item, lang) {
+  lang = lang.toLowerCase();
   const row = document.createElement("div");
   row.className = "menu-item";
 
-  // Manejar precios de raciones y medias (si existen)
+  // Precios
   let priceHTML = "";
+
   if (item.portion_price && item.half_portion_price) {
     priceHTML = `
       <div class="item-price">

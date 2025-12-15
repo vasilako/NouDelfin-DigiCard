@@ -13,8 +13,11 @@
 .kids-menu-title,
 .menu-infantil-titulo {
   font-family: 'Dancing Script', 'Pacifico', 'Marcellus', cursive, serif;
-  font-size: 2.5rem;
-  margin-bottom: 34px;
+  font-size: 4rem;
+
+  margin: 0 auto 34px auto;
+  padding: 0 25%;
+  border-bottom: 1px solid #ccc;
   font-weight: 700;
   letter-spacing: 1px;
   color: #202020;
@@ -25,6 +28,7 @@
 .menu-infantil-bloque > span {
   font-size: 1.19rem;
   margin-bottom: 11px;
+  color: #383838;
 
 }
 
@@ -42,6 +46,7 @@
   font-family: 'Marcellus', serif;
   font-weight: 400;
   letter-spacing: 2px;
+   color: #383838;
 }
 
 .price-main,
@@ -71,14 +76,13 @@
 
 /* Subtítulos y aclaraciones */
 .menu-infantil-bloque .primero,
-.menu-infantil-bloque .segundo {
+.menu-infantil-bloque .segundo {  
   font-size: 1.15rem;
   margin-top: 16px;
-  margin-bottom: 3px;
   color: #232323;
-  font-weight: 600;
-}
-
+  font-weight: 900;
+  border-bottom: rgb(98, 94, 94) solid 2px;
+  margin: 0 150px;;
 .menu-infantil-bloque .plato {
   margin-bottom: 6px;
 }
