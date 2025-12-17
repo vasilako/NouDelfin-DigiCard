@@ -38,7 +38,7 @@
                                         {
                                             "code": "RA003",
                                             "name_es": "Calamares andaluza",
-                                            "name_en": "Andalusian-style squid",
+                                            "name_en": "Andalusian Calamari",
                                             "name_fr": "Calmars andalous",
                                             "name_it": "Calamari andalusi",
                                             "name_ru": "Сquid по-андалузски",
@@ -97,7 +97,7 @@
                                         {
                                             "code": "RA008",
                                             "name_es": "Lacón a la gallega",
-                                            "name_en": "Galician-style pork shoulder",
+                                            "name_en": "Smoked ham - Galician style",
                                             "name_fr": "Épaule de porc à la galicienne",
                                             "name_it": "Spalla di maiale alla galiziana",
                                             "name_ru": "Свинина по-галисийски",
@@ -117,7 +117,7 @@
                                         {
                                             "code": "RA010",
                                             "name_es": "Tabla de Ibéricos",
-                                            "name_en": "Iberian cold cuts platter",
+                                            "name_en": "Iberian charcuterie board",
                                             "name_fr": "Plateau de charcuterie ibérique",
                                             "name_it": "Tagliere di salumi iberici",
                                             "name_ru": "Ассорти иберийских деликатесов",
@@ -126,7 +126,7 @@
                                         {
                                             "code": "RA011",
                                             "name_es": "Patatas con alioli",
-                                            "name_en": "Potatoes with aioli",
+                                            "name_en": "Aioli potatoes",
                                             "name_fr": "Pommes de terre à l'aïoli",
                                             "name_it": "Patate con aioli",
                                             "name_ru": "Картофель с айоли",
@@ -135,7 +135,7 @@
                                         {
                                             "code": "RA012",
                                             "name_es": "Ensaladilla rusa",
-                                            "name_en": "Russian salad",
+                                            "name_en": "Russian style potato salad",
                                             "name_fr": "Salade russe",
                                             "name_it": "Insalata russa",
                                             "name_ru": "Оливье",
@@ -164,7 +164,7 @@
                                         {
                                             "code": "RA015",
                                             "name_es": "Jamón Ibérico",
-                                            "name_en": "Iberian ham",
+                                            "name_en": "Iberian Jamon",
                                             "name_fr": "Jambon ibérique",
                                             "name_it": "Prosciutto iberico",
                                             "name_ru": "Иберийский хамон",
@@ -184,7 +184,7 @@
                                         {
                                             "code": "RA017",
                                             "name_es": "Salmón Noruego",
-                                            "name_en": "Norwegian salmon",
+                                            "name_en": "Smoked Salmon",
                                             "name_fr": "Saumon norvégien",
                                             "name_it": "Salmone norvegese",
                                             "name_ru": "Норвежский лосось",
@@ -277,7 +277,7 @@
                                         {
                                             "code": "RA026",
                                             "name_es": "Morcilla de Burgos",
-                                            "name_en": "Burgos blood sausage",
+                                            "name_en": "Burgos black Pudding",
                                             "name_fr": "Boudin noir de Burgos",
                                             "name_it": "Sanguinaccio di Burgos",
                                             "name_ru": "Кровяная колбаса из Бургоса",
@@ -315,7 +315,7 @@
                                         {
                                             "code": "RA029",
                                             "name_es": "Almejas a la marinera",
-                                            "name_en": "Clams marinera style",
+                                            "name_en": "Clams in marinera sauce",
                                             "name_fr": "Palourdes à la marinière",
                                             "name_it": "Vongole alla marinara",
                                             "name_ru": "Моллюски по-моряцки",
@@ -378,7 +378,7 @@
                                         {
                                             "code": "RA035",
                                             "name_es": "Pinchito moruno (und)",
-                                            "name_en": "Moorish skewer (each)",
+                                            "name_en": "Pork skewer marocan style (each)",
                                             "name_fr": "Brochette mauresque (u)",
                                             "name_it": "Spiedino moresco (cad)",
                                             "name_ru": "Шашлычок по-мавритански (шт)",
@@ -387,7 +387,7 @@
                                         {
                                             "code": "RA036",
                                             "name_es": "Brie frito con salsa de arándanos",
-                                            "name_en": "Fried brie with blueberry sauce",
+                                            "name_en": "Fried brie cheese with blueberry sauce",
                                             "name_fr": "Brie frit sauce aux myrtilles",
                                             "name_it": "Brie fritto con salsa di mirtilli",
                                             "name_ru": "Жареный бри с черничным соусом",
@@ -396,7 +396,7 @@
                                         {
                                             "code": "RA037",
                                             "name_es": "Croquetas caseras jamón",
-                                            "name_en": "Homemade ham croquettes",
+                                            "name_en": "Homemade Jamon croquettes",
                                             "name_fr": "Croquettes maison au jambon",
                                             "name_it": "Crocchette fatte in casa al prosciutto",
                                             "name_ru": "Домашние крокеты с ветчиной",
@@ -433,7 +433,7 @@
                                         {
                                             "code": "TS002",
                                             "name_es": "Morcilla de Burgos",
-                                            "name_en": "Burgos blood sausage",
+                                            "name_en": "Burgos black Pudding",
                                             "name_fr": "Boudin noir de Burgos",
                                             "name_it": "Sanguinaccio di Burgos",
                                             "name_ru": "Кровяная колбаса из Бургоса",
@@ -478,7 +478,7 @@
                                         {
                                             "code": "TS006",
                                             "name_es": "Salmón Noruego",
-                                            "name_en": "Norwegian salmon",
+                                            "name_en": "Smoked Salmon",
                                             "name_fr": "Saumon norvégien",
                                             "name_it": "Salmone norvegese",
                                             "name_ru": "Норвежский лосось",
@@ -690,7 +690,7 @@
                             {
                                 "code": "PE002",
                                 "name_es": "Dorada a la plancha",
-                                "name_en": "Grilled gilthead bream",
+                                "name_en": "Grilled sea bream",
                                 "name_fr": "Dorade grillée",
                                 "name_it": "Orata alla griglia",
                                 "name_ru": "Дорада на гриле",

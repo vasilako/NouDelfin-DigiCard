@@ -35,6 +35,23 @@
   color: #4b4b4b;
   margin-bottom: 4px;
 }
+
+
+li.bold-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.roboto-data-ru {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
 @media (max-width: 600px) {
   .menu-group-card { padding: 18px 4px; }
   .menu-title { font-size: 1.3rem; }

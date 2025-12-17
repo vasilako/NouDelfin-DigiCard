@@ -1,0 +1,24 @@
+.menu-container.navidad-menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  margin-top:40px;
+}
+
+.menu-navidad {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.10);
+}
+
+/* Opcional: añade padding si quieres separación en móviles */
+@media (max-width: 600px) {
+  .menu-container.navidad-menu {
+    padding: 0 8px;
+  }
+}

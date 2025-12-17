@@ -59,6 +59,12 @@ function applyLanguage(lang) {
   translatableElements.forEach((el) => {
     const translation = el.dataset[lang];
     if (translation) el.textContent = translation;
+
+    if (lang === "ru") {
+      el.classList.add("roboto-data-ru");
+    } else {
+      el.classList.remove("roboto-data-ru");
+    }
   });
 
   highlightActiveFlag(lang);
