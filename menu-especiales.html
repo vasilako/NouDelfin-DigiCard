@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Menús Especiales para Grupos · Nou Delfín</title>
+
   <!-- Google Fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,32 +14,26 @@
   
   <!-- Iconos Banderas -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css" />
+
+
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="components/header.css" />
   <link rel="stylesheet" href="css/menu-grupos.css" />
-  <!-- JS multiidioma -->
-  <script defer src="js/clear.js"></script>
-  <script defer src="js/language-select.js"></script>
+
+   <!-- JS global y específico -->
+    <script defer src="components/header.js"></script>
+    <script defer src="js/language-select.js"></script>
+    <script defer src="js/clear.js"></script>
 </head>
 <body>
+  
   <div class="container">
-    <!-- Selector de idioma -->
-    <header class="language-selector">
-      <ul>
-        <li><button data-lang="es" class="active" aria-label="Español"><span class="fi fi-es"></span></button></li>
-        <li><button data-lang="en" aria-label="English"><span class="fi fi-gb"></span></button></li>
-        <li><button data-lang="fr" aria-label="Français"><span class="fi fi-fr"></span></button></li>
-        <li><button data-lang="it" aria-label="Italiano"><span class="fi fi-it"></span></button></li>
-        <li><button data-lang="ru" aria-label="Русский"><span class="fi fi-ru"></span></button></li>
-      </ul>
-    </header>
+   <!-- Cabecera global, título multilingüe en data-* -->
+    <header id="app-header" data-title="🍽️ menús Especiales"></header>
 
-     <!-- Logo -->
-      <header class="logo">
-        <img src="img/LogoNouDelfin.svg" alt="Nou Delfín Logo" />
-      </header>
 
-      
+
     <!-- MENÚ 1 -->
 <div class="menu-group-card">
   <h2 class="menu-title"
@@ -415,5 +410,123 @@
   </div>
 </div>
 
+<!-- MENÚ DEGUSTACIÓN -->
+<div class="menu-group-card">
+  <h2 class="menu-title"
+    data-es="Menú Degustación"
+    data-en="Tasting Menu"
+    data-fr="Menu Dégustation"
+    data-it="Menù Degustazione"
+    data-ru="Дегустационное меню">
+    Menú Degustación
+  </h2>
+
+  <ul class="menu-items">
+    <li data-es="Croquetas caseras de bacalao" data-en="Homemade cod croquettes" data-fr="Croquettes de morue maison" data-it="Crocchette di baccalà fatte in casa" data-ru="Домашние крокеты из трески">
+      Croquetas caseras de bacalao
+    </li>
+    <li data-es="Calamares a la andaluza" data-en="Andalusian-style squid" data-fr="Calmars à l'andalouse" data-it="Calamari all'andalusa" data-ru="Кальмары по-андалузски">
+      Calamares a la andaluza
+    </li>
+    <li data-es="Revuelto de champiñones y gambas" data-en="Scrambled eggs with mushrooms and prawns" data-fr="Brouillade de champignons et crevettes" data-it="Uova strapazzate con funghi e gamberetti" data-ru="Яичница-болтунья с грибами и креветками">
+      Revuelto de champiñones y gambas
+    </li>
+    <li data-es="Revuelto de la abuela (Jamón, berenjena, calabacín, chorizo)" data-en="Grandma's scrambled eggs (Ham, eggplant, zucchini, chorizo)" data-fr="Brouillade de la grand-mère (Jambon, aubergine, courgette, chorizo)" data-it="Uova strapazzate della nonna (Prosciutto, melanzane, zucchine, chorizo)" data-ru="Яичница-болтунья от бабушки (ветчина, баклажаны, кабачки, чоризо)">
+      Revuelto de la abuela (Jamón, berenjena, calabacín, chorizo)
+    </li>
+    <li data-es="Croquetas caseras de jamón ibérico" data-en="Homemade Iberian ham croquettes" data-fr="Croquettes de jambon ibérique maison" data-it="Crocchette di prosciutto iberico fatte in casa" data-ru="Домашние крокеты из иберийского хамона">
+      Croquetas caseras de jamón ibérico
+    </li>
+    <li data-es="Revuelto de morcilla y cebolla confitada" data-en="Scrambled eggs with black pudding and candied onion" data-fr="Brouillade de boudin noir et oignons confits" data-it="Uova strapazzate con sanguinaccio e cipolla candita" data-ru="Яичница-болтунья с кровяной колбасой и луковым конфи">
+      Revuelto de morcilla y cebolla confitada
+    </li>
+    <li data-es="Chanquetes a la andaluza" data-en="Andalusian-style whitebait" data-fr="Petits poissons fritos à l'andalouse" data-it="Pesciolini fritti all'andalusa" data-ru="Мелкая рыбешка по-андалузски">
+      Chanquetes a la andaluza
+    </li>
+    <li data-es="Magro con tomate" data-en="Lean pork with tomato sauce" data-fr="Porc maigre à la tomate" data-it="Maiale magro al pomodoro" data-ru="Свинина в томатном соусе">
+      Magro con tomate
+    </li>
+    <li data-es="Patatas bravas/ali-oli" data-en="Patatas bravas with aioli" data-fr="Patatas bravas à l'aïoli" data-it="Patatas bravas con aioli" data-ru="Картофель бравас с айоли">
+      Patatas bravas/ali-oli
+    </li>
+    <li data-es="Patatitas de rio con ali-oli y mojo picón" data-en="Small river potatoes with aioli and mojo picón" data-fr="Petites pommes de terre de rivière à l'aïoli et mojo picón" data-it="Patatine di fiume con aioli e mojo picón" data-ru="Молодой картофель с айоли и соусом мохо пикон">
+      Patatitas de rio con ali-oli y mojo picón
+    </li>
+    <li data-es="Crujiente de verduritas con reducción de módena" data-en="Crispy vegetables with balsamic reduction" data-fr="Légumes croquants avec réduction de Modène" data-it="Verdurine croccanti con riduzione di Modena" data-ru="Хрустящие овощи с бальзамическим соусом">
+      Crujiente de verduritas con reducción de módena
+    </li>
+    <li data-es="Huevos rotos con jamón y pimiento de padrón" data-en="Broken eggs with ham and Padrón peppers" data-fr="Œufs brouillés au jambon et piments de Padrón" data-it="Uova rotte con prosciutto e peperoni di Padrón" data-ru="Яичница с хамоном и перцем Падрон">
+      Huevos rotos con jamón y pimiento de padrón
+    </li>
+    <li data-es="Tomate preparado con atún y cebolla roja" data-en="Prepared tomato with tuna and red onion" data-fr="Tomate préparée au thon et à l'oignon rouge" data-it="Pomodoro condito con tonno e cipolla rossa" data-ru="Салат из томатов с тунцом и красным луком">
+      Tomate preparado con atún y cebolla roja
+    </li>
+    <li data-es="Cazón en adobo" data-en="Marinated dogfish" data-fr="Roussette marinée" data-it="Palombo marinato" data-ru="Маринованная акула (касон)">
+      Cazón en adobo
+    </li>
+    <li data-es="Minutejos" data-en="Crispy pork ears" data-fr="Oreilles de porc croustillantes" data-it="Orecchie di maiale croccanti" data-ru="Минутехос (хрустящие свиные ушки)">
+      Minutejos
+    </li>
+    <li data-es="Tortitas de camarón" data-en="Shrimp fritters" data-fr="Galettes de crevettes" data-it="Frittelle di gamberetti" data-ru="Лепешки с креветками">
+      Tortitas de camarón
+    </li>
+    <li data-es="Gambita de Huelva frita" data-en="Fried Huelva prawns" data-fr="Crevettes de Huelva frites" data-it="Gamberetti di Huelva fritti" data-ru="Жареные креветки из Уэльвы">
+      Gambita de Huelva frita
+    </li>
+    <li data-es="Chopitos a la andaluza" data-en="Andalusian-style baby squid" data-fr="Petits seiches à l'andalouse" data-it="Seppioline all'andalusa" data-ru="Маленькие каракатицы по-андалузски">
+      Chopitos a la andaluza
+    </li>
+    <li data-es="Boquerones en adobo" data-en="Marinated anchovies" data-fr="Anchois marinés" data-it="Alici marinate" data-ru="Маринованные анчоусы">
+      Boquerones en adobo
+    </li>
+    <li data-es="Lacón a la gallega" data-en="Galician-style pork shoulder" data-fr="Épaule de porc à la galicienne" data-it="Spalla di maiale alla galiziana" data-ru="Свинина по-галисийски">
+      Lacón a la gallega
+    </li>
+    <li data-es="Chori-morci calentito" data-en="Warm chorizo and black pudding" data-fr="Chorizo et boudin noir chauds" data-it="Chorizo e sanguinaccio caldi" data-ru="Горячее ассорти из чоризо и морсильи">
+      Chori-morci calentito
+    </li>
+    <li data-es="Ensaladilla rusa" data-en="Russian salad" data-fr="Salade russe" data-it="Insalata russa" data-ru="Русский салат (Оливье)">
+      Ensaladilla rusa
+    </li>
+  </ul>
+
+  <div class="packs-section">
+    <div class="pack-item">
+      <span data-es="5 Entradas + Verbena de Tostas + Bebida" data-en="5 Starters + Toast Selection + Drink" data-fr="5 Entrées + Sélection de Toasts + Boisson" data-it="5 Antipasti + Selezione di Crostini + Bevanda" data-ru="5 закусок + ассорти тостов + напиток">5 Entradas + Verbena de Tostas + Bebida</span>
+      <span class="price">25€ / pers.</span>
+    </div>
+    <div class="pack-item">
+      <span data-es="6 Entradas + Bebida" data-en="6 Starters + Drink" data-fr="6 Entrées + Boisson" data-it="6 Antipasti + Bevanda" data-ru="6 закусок + напиток">6 Entradas + Bebida</span>
+      <span class="price">24€ / pers.</span>
+    </div>
+    <div class="pack-item">
+      <span data-es="7 Entradas + Bebida" data-en="7 Starters + Drink" data-fr="7 Entrées + Boisson" data-it="7 Antipasti + Bevanda" data-ru="7 закусок + напиток">7 Entradas + Bebida</span>
+      <span class="price">26€ / pers.</span>
+    </div>
+    <div class="pack-item">
+      <span data-es="8 Entradas + Bebida" data-en="8 Starters + Drink" data-fr="8 Entrées + Boisson" data-it="8 Antipasti + Bevanda" data-ru="8 закусок + напиток">8 Entradas + Bebida</span>
+      <span class="price">29€ / pers.</span>
+    </div>
+  </div>
+
+  <div class="menu-note"
+    data-es="CERVEZA, AGUA, VINO, SANGRÍA, REFRESCOS"
+    data-en="BEER, WATER, WINE, SANGRIA, SOFT DRINKS"
+    data-fr="BIÈRE, EAU, VIN, SANGRIA, SODAS"
+    data-it="BIRRA, ACQUA, VINO, SANGRIA, BIBITE"
+    data-ru="ПИВО, ВОДА, ВИНО, САНГРИЯ, БЕЗАЛКОГОЛЬНЫЕ НАПИТКИ">
+    CERVEZA, AGUA, VINO, SANGRÍA, REFRESCOS
+  </div>
+  
+  <div class="menu-footer-special" 
+    style="text-align: center; font-style: italic; margin-top: 10px;"
+    data-es="Invitación a chupito"
+    data-en="Complimentary shot"
+    data-fr="Digestif offert"
+    data-it="Cicchetto offerto"
+    data-ru="Комплимент от заведения: рюмка ликера">
+    Invitación a chupito
+  </div>
+</div>
     </body>
 </html>
