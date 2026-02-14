@@ -76,6 +76,30 @@
           <ul>
             <li>
               <a
+                href="menu-navidad.html"
+                class="menu-btn"
+                data-es="🎉 Menú Navidad"
+                data-en="🎉 Christmas Menu"
+                data-fr="🎉 Menu Noël"
+                data-it="🎉 Menu Natale"
+                data-ru="🎉 Рождественское меню"
+                >🍽️ Menu Navidad</a
+              >
+            </li>
+            <li>
+              <a
+                href="new-year-menu.html"
+                class="menu-btn"
+                data-es="🎉 Menú Año Nuevo"
+                data-en="🎉 New Year's Eve Menu"
+                data-fr="🎉 Menu Nouvel An"
+                data-it="🎉 Menu Capodanno"
+                data-ru="🎉 Новогоднее меню"
+                >🍽️ Carta comida</a
+              >
+            </li>
+            <li>
+              <a
                 href="menu-especiales.html"
                 class="menu-btn"
                 data-es="⭐ Menús Especiales"
