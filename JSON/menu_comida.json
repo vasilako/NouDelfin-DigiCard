@@ -31,7 +31,7 @@
                                             "name_en": "Marinated anchovies",
                                             "name_fr": "Anchois marinés",
                                             "name_it": "Alici marinate",
-                                            "name_ru": "Маринованные анчоусы",
+                                            "name_ru": "Жареные рыбки",
                                             "portion_price": "12,90",
                                             "half_portion_price": "7,95"
                                         },
@@ -177,7 +177,7 @@
                                             "name_en": "Iberian pork loin",
                                             "name_fr": "Longe de porc ibérique",
                                             "name_it": "Lombo iberico",
-                                            "name_ru": "Иберийская корейка",
+                                            "name_ru": "Ломо (свинина)",
                                             "portion_price": "18,00",
                                             "half_portion_price": "11,50"
                                         },
@@ -290,7 +290,7 @@
                                             "name_en": "Mini pork bites",
                                             "name_fr": "Morceaux de porc mini",
                                             "name_it": "Bocconcini di maiale",
-                                            "name_ru": "Мини-свинина",
+                                            "name_ru": "Свиные ушки",
                                             "portion_price": "12,50",
                                             "half_portion_price": "8,50"
                                         }
@@ -500,7 +500,7 @@
                                             "name_fr": "Anchois de Cantabrie",
                                             "name_it": "Acciughe del Cantabrico",
                                             "name_ru": "Кантабрийские анчоусы",
-                                            "price": "3,00"
+                                            "price": "2,50"
                                         },
                                         {
                                             "code": "TS009",
@@ -527,12 +527,29 @@
                                             "name_fr": "Thon à la tomate",
                                             "name_it": "Tonno al pomodoro",
                                             "name_ru": "Тунец с томатом",
-                                            "price": "2,50"
+                                            "price": "2,75"
+                                        },
+                                        {
+                                            "code": "TS012",
+                                            "name_es": "Tosta Marinera (Ensaladilla rusa y anchoa, sobre picos de Jaén)",
+                                            "name_en": "Marinera Toast (Russian salad and anchovy on Jaén breadsticks)",
+                                            "name_fr": "Tosta marinera (Salade russe et anchois sur gressins de Jaén)",
+                                            "name_it": "Tosta marinera (Insalata russa e acciuga su grissini di Jaén)",
+                                            "name_ru": "Тоста «Маринера» (русский салат и анчоус на хлебных палочках из Хаэна)",
+                                            "price": "2,95"
+                                        },
+                                        {
+                                            "code": "TS013",
+                                            "name_es": "Tosta Mari Perla (Ensaladilla rusa con caviar, sobre picos de Jaén)",
+                                            "name_en": "Mari Perla Toast (Russian salad with caviar on Jaén breadsticks)",
+                                            "name_fr": "Tosta Mari Perla (Salade russe au caviar sur gressins de Jaén)",
+                                            "name_it": "Tosta Mari Perla (Insalata russa con caviale su grissini di Jaén)",
+                                            "name_ru": "Тоста «Мари Перла» (русский салат с икрой на хлебных палочках из Хаэна)",
+                                            "price": "2,95"
                                         }
                                     ]
-                                },
-                        
-                                {
+                                },           
+                               {
                                     "ES_SubTitle": "Ibéricas",
                                     "EN_SubTitle": "Iberian",
                                     "FR_SubTitle": "Ibériques",
@@ -564,7 +581,7 @@
                                             "name_fr": "Longe de porc",
                                             "name_it": "Lombo",
                                             "name_ru": "Свинина (ломо)",
-                                            "price": "2,50"
+                                            "price": "3,00"
                                         },
                                         {
                                             "code": "TS015",
@@ -576,9 +593,27 @@
                                             "price": "3,00"
                                         }
                                     ]
-                                    }
-
-                                ]},
+                                },
+                                {
+                                    "ES_SubTitle": "Para compartir",
+                                    "EN_SubTitle": "To share", 
+                                    "FR_SubTitle": "À partager",
+                                    "IT_SubTitle": "Da condividere",
+                                    "RU_SubTitle": "Для компании",
+                                    "items": [
+                                        {
+                                            "code": "PCS001",
+                                            "name_es": "Verbena de Tostas (8 unidades)",
+                                            "name_en": "Assorted Tosta Platter (8 units)",
+                                            "name_fr": "Assortiment de tostas (8 unités)",
+                                            "name_it": "Assortimento di toste (8 pezzi)",
+                                            "name_ru": "Ассорти тостов (8 штук)",
+                                            "price": "15,50"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
                         {
                             "code": "CA",
                             "ES_title": "Carnes",
@@ -638,7 +673,7 @@
                                 "name_en": "Suckling lamb chops",
                                 "name_fr": "Côtelettes d'agneau de lait",
                                 "name_it": "Costolette di agnello da latte",
-                                "name_ru": "Отбивные из молочного ягнёнка",
+                                "name_ru": "Ребрышки ягнёнка (баранина)",
                                 "price": "20,95"
                             },
                             {
@@ -921,7 +956,7 @@
                                 "name_en": "Spanish-style french toast",
                                 "name_fr": "Pain perdu espagnol",
                                 "name_it": "Torrijas spagnole",
-                                "name_ru": "Испанские тосты",
+                                "name_ru": "Гренки по-испански",
                                 "price": "4,50"
                             },
                             {

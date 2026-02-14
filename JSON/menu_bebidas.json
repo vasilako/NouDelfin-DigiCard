@@ -113,7 +113,7 @@
                     "name_en": "Draft beer (small)",
                     "name_fr": "Bière pression (petite)",
                     "name_it": "Birra alla spina (piccola)",
-                    "name_ru": "Разливное пиво (мал.)",
+                    "name_ru": "Бокал пива",
                     "price": "2,50"
                 },
                 {
@@ -131,7 +131,7 @@
                     "name_en": "Aquarius",
                     "name_fr": "Aquarius",
                     "name_it": "Aquarius",
-                    "name_ru": "Aquarius",
+                    "name_ru": "Аквариус",
                     "price": "2,75"
                 },
                 {
@@ -149,7 +149,7 @@
                     "name_en": "Summer red wine (spritz)",
                     "name_fr": "Tinto de verano",
                     "name_it": "Tinto de verano",
-                    "name_ru": "Тинто де верaно",
+                    "name_ru": "Летнее красное вино",
                     "price": "2,75"
                 }
             ]
